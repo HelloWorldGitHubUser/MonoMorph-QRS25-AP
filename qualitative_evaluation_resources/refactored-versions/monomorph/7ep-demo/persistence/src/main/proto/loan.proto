@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.coveros.training.monomorph.dto.generated.proto.loan;
+
+option java_multiple_files = true;
+option java_package = "com.coveros.training.monomorph.dto.generated.proto.loan";
+
+import "book.proto";
+import "borrower.proto";
+
+message LoanDTO {
+    // The date the book was checked out (milliseconds since epoch)
+    int64 checkoutDate = 1;
+
+    // The book that is checked out
+    com.coveros.training.monomorph.dto.generated.proto.book.BookDTO book = 2;
+
+    // The borrower that has this book
+    com.coveros.training.monomorph.dto.generated.proto.borrower.BorrowerDTO borrower = 3;
+
+    // The identifier of this loan in our database
+    int64 id = 4;
+}

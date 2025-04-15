@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.dto.generated.proto.catalogactionbean;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.dto.generated.proto.catalogactionbean";
+
+// Import the proto files for the mapped DTOs
+import "category.proto";
+import "product.proto";
+import "catalog_service.proto";
+import "refactored_object_id.proto";
+
+message CatalogActionBeanDTO {
+    // Static constants
+    int64 serialVersionUID = 1;
+    string MAIN = 2;
+    string VIEW_CATEGORY = 3;
+    string VIEW_PRODUCT = 4;
+    string VIEW_ITEM = 5;
+    string SEARCH_PRODUCTS = 6;
+    string ERROR = 7;
+
+    // Service reference
+    org.mybatis.jpetstore.monomorph.dto.generated.proto.catalogservice.CatalogServiceDTO catalogService = 8;
+
+    // Basic fields
+    string keyword = 9;
+    string categoryId = 10;
+    string productId = 11;
+    string itemId = 12;
+
+    // Complex types
+    org.mybatis.jpetstore.monomorph.dto.generated.proto.category.CategoryDTO category = 13;
+    org.mybatis.jpetstore.monomorph.dto.generated.proto.product.ProductDTO product = 14;
+    refactoredObjectID item = 15;
+
+    // Lists
+    repeated org.mybatis.jpetstore.monomorph.dto.generated.proto.category.CategoryDTO categoryList = 16;
+    repeated org.mybatis.jpetstore.monomorph.dto.generated.proto.product.ProductDTO productList = 17;
+    repeated refactoredObjectID itemList = 18;
+}

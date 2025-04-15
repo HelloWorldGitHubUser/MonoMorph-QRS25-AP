@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.id.generated.proto.accountactionbean;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.id.generated.proto.accountactionbean";
+
+import "shared.proto";
+import "account.proto";
+
+service AccountActionBeanService {
+    rpc createObject(CreateObjectRequest) returns (org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID);
+    rpc isAuthenticated(IsAuthenticatedRequest) returns (IsAuthenticatedResponse);
+    rpc getAccount(GetAccountRequest) returns (GetAccountResponse);
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // AccountActionBean doesn't have explicit constructor arguments
+    // But we can initialize with default values as needed
+    bool authenticated = 1;
+    org.mybatis.jpetstore.monomorph.dto.generated.proto.account.AccountDTO account = 2;
+}
+
+message IsAuthenticatedRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message IsAuthenticatedResponse {
+    bool authenticated = 1;
+}
+
+message GetAccountRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message GetAccountResponse {
+    org.mybatis.jpetstore.monomorph.dto.generated.proto.account.AccountDTO account = 1;
+}

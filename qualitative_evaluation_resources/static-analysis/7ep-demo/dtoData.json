@@ -1,0 +1,6220 @@
+{
+  "dtos": [{
+    "fullName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+      "variableName": "status",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.PasswordResultEnums",
+        "simpleName": "PasswordResultEnums",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+      "variableName": "entropy",
+      "type": {
+        "fullName": "java.lang.Double",
+        "simpleName": "Double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+      "variableName": "timeToCrackOffline",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+      "variableName": "timeToCrackOnline",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+      "variableName": "message",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+      "variableName": "BASIC_PASSWORD_CHECKS_FAILED",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.domainobjects.PasswordResultEnums",
+    "fields": [{
+      "parentName": "java.lang.Enum",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Enum",
+      "variableName": "ordinal",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.domainobjects.PasswordResultTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+      "variableName": "wasSuccessfullyRegistered",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+      "variableName": "status",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.RegistrationStatusEnums",
+        "simpleName": "RegistrationStatusEnums",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+      "variableName": "message",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.domainobjects.RegistrationResultTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.authentication.domainobjects.RegistrationStatusEnums",
+    "fields": [{
+      "parentName": "java.lang.Enum",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Enum",
+      "variableName": "ordinal",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.domainobjects.User",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.domainobjects.User",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.domainobjects.User",
+      "variableName": "id",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.domainobjects.UserTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.authentication.LoginServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.LoginServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginServlet",
+      "variableName": "loginUtils",
+      "type": {
+        "fullName": "com.coveros.training.authentication.LoginUtils",
+        "simpleName": "LoginUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.LoginServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.LoginServletTests",
+      "variableName": "DEFAULT_USERNAME",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginServletTests",
+      "variableName": "DEFAULT_PASSWORD",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginServletTests",
+      "variableName": "requestDispatcher",
+      "type": {
+        "fullName": "javax.servlet.RequestDispatcher",
+        "simpleName": "RequestDispatcher",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginServletTests",
+      "variableName": "loginServlet",
+      "type": {
+        "fullName": "com.coveros.training.authentication.LoginServlet",
+        "simpleName": "LoginServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.LoginStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.LoginStepDefs",
+      "variableName": "isRegisteredUser",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginStepDefs",
+      "variableName": "registrationUtils",
+      "type": {
+        "fullName": "com.coveros.training.authentication.RegistrationUtils",
+        "simpleName": "RegistrationUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginStepDefs",
+      "variableName": "loginUtils",
+      "type": {
+        "fullName": "com.coveros.training.authentication.LoginUtils",
+        "simpleName": "LoginUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginStepDefs",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.LoginUtils",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.LoginUtils",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginUtils",
+      "variableName": "persistenceLayer",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.LoginUtilsTests",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.LoginUtilsTests",
+      "variableName": "mockPersistenceLayer",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.LoginUtilsTests",
+      "variableName": "loginUtils",
+      "type": {
+        "fullName": "com.coveros.training.authentication.LoginUtils",
+        "simpleName": "LoginUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.NbvcxzTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.authentication.RegisterServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.RegisterServlet",
+      "variableName": "PASSWORD_PARAM",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServlet",
+      "variableName": "USERNAME_PARAM",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServlet",
+      "variableName": "registrationUtils",
+      "type": {
+        "fullName": "com.coveros.training.authentication.RegistrationUtils",
+        "simpleName": "RegistrationUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.RegisterServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.RegisterServletTests",
+      "variableName": "ALICE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServletTests",
+      "variableName": "EMPTY_USERNAME",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+        "simpleName": "RegistrationResult",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServletTests",
+      "variableName": "SUCCESSFUL_REGISTRATION",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+        "simpleName": "RegistrationResult",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServletTests",
+      "variableName": "requestDispatcher",
+      "type": {
+        "fullName": "javax.servlet.RequestDispatcher",
+        "simpleName": "RequestDispatcher",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegisterServletTests",
+      "variableName": "registerServlet",
+      "type": {
+        "fullName": "com.coveros.training.authentication.RegisterServlet",
+        "simpleName": "RegisterServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.RegistrationStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.RegistrationStepDefs",
+      "variableName": "ALREADY_REGISTERED",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+        "simpleName": "RegistrationResult",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationStepDefs",
+      "variableName": "myUsername",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationStepDefs",
+      "variableName": "myRegistrationResult",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.RegistrationResult",
+        "simpleName": "RegistrationResult",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationStepDefs",
+      "variableName": "registrationUtils",
+      "type": {
+        "fullName": "com.coveros.training.authentication.RegistrationUtils",
+        "simpleName": "RegistrationUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationStepDefs",
+      "variableName": "passwordResult",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.PasswordResult",
+        "simpleName": "PasswordResult",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationStepDefs",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationStepDefs",
+      "variableName": "TYPICAL_PASSWORD",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.RegistrationUtils",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.RegistrationUtils",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationUtils",
+      "variableName": "persistenceLayer",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.authentication.RegistrationUtilsTests",
+    "fields": [{
+      "parentName": "com.coveros.training.authentication.RegistrationUtilsTests",
+      "variableName": "GOOD_PASSWORD",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationUtilsTests",
+      "variableName": "ALICE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationUtilsTests",
+      "variableName": "BAD_PASSWORD",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationUtilsTests",
+      "variableName": "persistenceLayer",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationUtilsTests",
+      "variableName": "registrationUtils",
+      "type": {
+        "fullName": "com.coveros.training.authentication.RegistrationUtils",
+        "simpleName": "RegistrationUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.authentication.RegistrationUtilsTests",
+      "variableName": "thrown",
+      "type": {
+        "fullName": "org.junit.rules.ExpectedException",
+        "simpleName": "ExpectedException",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.AutoInsuranceAction",
+    "fields": [{
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceAction",
+      "variableName": "premiumIncreaseDollars",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceAction",
+      "variableName": "warningLetterEnum",
+      "type": {
+        "fullName": "com.coveros.training.autoinsurance.WarningLetterEnum",
+        "simpleName": "WarningLetterEnum",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceAction",
+      "variableName": "isPolicyCanceled",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceAction",
+      "variableName": "isError",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.AutoInsuranceActionTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.AutoInsuranceProcessor",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.AutoInsuranceProcessorTests",
+    "fields": [{
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceProcessorTests",
+      "variableName": "claims",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceProcessorTests",
+      "variableName": "age",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceProcessorTests",
+      "variableName": "premiumIncrease",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceProcessorTests",
+      "variableName": "warningLetter",
+      "type": {
+        "fullName": "com.coveros.training.autoinsurance.WarningLetterEnum",
+        "simpleName": "WarningLetterEnum",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceProcessorTests",
+      "variableName": "cancelPolicy",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceProcessorTests",
+      "variableName": "isError",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.AutoInsuranceScriptClient",
+    "fields": [{
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceScriptClient",
+      "variableName": "QUIT",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceScriptClient",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.AutoInsuranceScriptServer",
+    "fields": [{
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceScriptServer",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceScriptServer",
+      "variableName": "shouldRepeat",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceScriptServer",
+      "variableName": "autoInsuranceUI",
+      "type": {
+        "fullName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+        "simpleName": "AutoInsuranceUI",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+    "fields": [{
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+      "variableName": "autoInsuranceScriptServer",
+      "type": {
+        "fullName": "com.coveros.training.autoinsurance.AutoInsuranceScriptServer",
+        "simpleName": "AutoInsuranceScriptServer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+      "variableName": "label",
+      "type": {
+        "fullName": "javax.swing.JLabel",
+        "simpleName": "JLabel",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+      "variableName": "claimsDropDown",
+      "type": {
+        "fullName": "javax.swing.JComboBox",
+        "simpleName": "JComboBox",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.String",
+          "simpleName": "String",
+          "isSerializable": true,
+          "typeSource": "PRIMITIVE",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+      "variableName": "ageField",
+      "type": {
+        "fullName": "javax.swing.JTextField",
+        "simpleName": "JTextField",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+      "variableName": "claimsCalcButton",
+      "type": {
+        "fullName": "javax.swing.JButton",
+        "simpleName": "JButton",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.autoinsurance.AutoInsuranceUI",
+      "variableName": "frame",
+      "type": {
+        "fullName": "javax.swing.JFrame",
+        "simpleName": "JFrame",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JPanel",
+      "variableName": "uiClassID",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "uiClassID",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "readObjectCallbacks",
+      "type": {
+        "fullName": "java.util.Hashtable",
+        "simpleName": "Hashtable",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.io.ObjectInputStream",
+          "simpleName": "ObjectInputStream",
+          "isSerializable": false,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }, {
+          "fullName": "javax.swing.JComponent$ReadObjectCallback",
+          "simpleName": "ReadObjectCallback",
+          "isSerializable": false,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "managingFocusForwardTraversalKeys",
+      "type": {
+        "fullName": "java.util.Set",
+        "simpleName": "Set",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "javax.swing.KeyStroke",
+          "simpleName": "KeyStroke",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "managingFocusBackwardTraversalKeys",
+      "type": {
+        "fullName": "java.util.Set",
+        "simpleName": "Set",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "javax.swing.KeyStroke",
+          "simpleName": "KeyStroke",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "NOT_OBSCURED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "PARTIALLY_OBSCURED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "COMPLETELY_OBSCURED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "DEBUG_GRAPHICS_LOADED",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "INPUT_VERIFIER_SOURCE_KEY",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "isAlignmentXSet",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "alignmentX",
+      "type": {
+        "fullName": "float",
+        "simpleName": "float",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "isAlignmentYSet",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "alignmentY",
+      "type": {
+        "fullName": "float",
+        "simpleName": "float",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "ui",
+      "type": {
+        "fullName": "javax.swing.plaf.ComponentUI",
+        "simpleName": "ComponentUI",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "listenerList",
+      "type": {
+        "fullName": "javax.swing.event.EventListenerList",
+        "simpleName": "EventListenerList",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "clientProperties",
+      "type": {
+        "fullName": "javax.swing.ArrayTable",
+        "simpleName": "ArrayTable",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "vetoableChangeSupport",
+      "type": {
+        "fullName": "java.beans.VetoableChangeSupport",
+        "simpleName": "VetoableChangeSupport",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "autoscrolls",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "border",
+      "type": {
+        "fullName": "javax.swing.border.Border",
+        "simpleName": "Border",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "flags",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "inputVerifier",
+      "type": {
+        "fullName": "javax.swing.InputVerifier",
+        "simpleName": "InputVerifier",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "verifyInputWhenFocusTarget",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "paintingChild",
+      "type": {
+        "fullName": "java.awt.Component",
+        "simpleName": "Component",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "WHEN_FOCUSED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "WHEN_ANCESTOR_OF_FOCUSED_COMPONENT",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "WHEN_IN_FOCUSED_WINDOW",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "UNDEFINED_CONDITION",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "KEYBOARD_BINDINGS_KEY",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "WHEN_IN_FOCUSED_WINDOW_BINDINGS",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "TOOL_TIP_TEXT_KEY",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "NEXT_FOCUS",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "popupMenu",
+      "type": {
+        "fullName": "javax.swing.JPopupMenu",
+        "simpleName": "JPopupMenu",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "IS_DOUBLE_BUFFERED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "ANCESTOR_USING_BUFFER",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "IS_PAINTING_TILE",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "IS_OPAQUE",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "KEY_EVENTS_ENABLED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "FOCUS_INPUTMAP_CREATED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "ANCESTOR_INPUTMAP_CREATED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "WIF_INPUTMAP_CREATED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "ACTIONMAP_CREATED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "CREATED_DOUBLE_BUFFER",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "IS_PRINTING",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "IS_PRINTING_ALL",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "IS_REPAINTING",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "WRITE_OBJ_COUNTER_FIRST",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "RESERVED_1",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "RESERVED_2",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "RESERVED_3",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "RESERVED_4",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "RESERVED_5",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "RESERVED_6",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "WRITE_OBJ_COUNTER_LAST",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "REQUEST_FOCUS_DISABLED",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "INHERITS_POPUP_MENU",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "OPAQUE_SET",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "AUTOSCROLLS_SET",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "FOCUS_TRAVERSAL_KEYS_FORWARD_SET",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "FOCUS_TRAVERSAL_KEYS_BACKWARD_SET",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "revalidateRunnableScheduled",
+      "type": {
+        "fullName": "java.util.concurrent.atomic.AtomicBoolean",
+        "simpleName": "AtomicBoolean",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "tempRectangles",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "focusInputMap",
+      "type": {
+        "fullName": "javax.swing.InputMap",
+        "simpleName": "InputMap",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "ancestorInputMap",
+      "type": {
+        "fullName": "javax.swing.InputMap",
+        "simpleName": "InputMap",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "windowInputMap",
+      "type": {
+        "fullName": "javax.swing.ComponentInputMap",
+        "simpleName": "ComponentInputMap",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "actionMap",
+      "type": {
+        "fullName": "javax.swing.ActionMap",
+        "simpleName": "ActionMap",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "defaultLocale",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "componentObtainingGraphicsFrom",
+      "type": {
+        "fullName": "java.awt.Component",
+        "simpleName": "Component",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "componentObtainingGraphicsFromLock",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "aaHint",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "lcdRenderingHint",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "javax.swing.JComponent",
+      "variableName": "focusController",
+      "type": {
+        "fullName": "sun.awt.RequestFocusController",
+        "simpleName": "RequestFocusController",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "log",
+      "type": {
+        "fullName": "sun.util.logging.PlatformLogger",
+        "simpleName": "PlatformLogger",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "eventLog",
+      "type": {
+        "fullName": "sun.util.logging.PlatformLogger",
+        "simpleName": "PlatformLogger",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "EMPTY_ARRAY",
+      "type": {
+        "fullName": "java.awt.Component[]",
+        "simpleName": "Component[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Component",
+          "simpleName": "Component",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "component",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "layoutMgr",
+      "type": {
+        "fullName": "java.awt.LayoutManager",
+        "simpleName": "LayoutManager",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "dispatcher",
+      "type": {
+        "fullName": "java.awt.LightweightDispatcher",
+        "simpleName": "LightweightDispatcher",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "focusTraversalPolicy",
+      "type": {
+        "fullName": "java.awt.FocusTraversalPolicy",
+        "simpleName": "FocusTraversalPolicy",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "focusCycleRoot",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "focusTraversalPolicyProvider",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "printingThreads",
+      "type": {
+        "fullName": "java.util.Set",
+        "simpleName": "Set",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "javax.swing.KeyStroke",
+          "simpleName": "KeyStroke",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "printing",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "containerListener",
+      "type": {
+        "fullName": "java.awt.event.ContainerListener",
+        "simpleName": "ContainerListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "listeningChildren",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "listeningBoundsChildren",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "descendantsCount",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "preserveBackgroundColor",
+      "type": {
+        "fullName": "java.awt.Color",
+        "simpleName": "Color",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "INCLUDE_SELF",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "SEARCH_HEAVYWEIGHTS",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "numOfHWComponents",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "numOfLWComponents",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "mixingLog",
+      "type": {
+        "fullName": "sun.util.logging.PlatformLogger",
+        "simpleName": "PlatformLogger",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "serialPersistentFields",
+      "type": {
+        "fullName": "java.io.ObjectStreamField[]",
+        "simpleName": "ObjectStreamField[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.io.ObjectStreamField",
+          "simpleName": "ObjectStreamField",
+          "isSerializable": false,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "isJavaAwtSmartInvalidate",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "descendUnconditionallyWhenValidating",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "modalComp",
+      "type": {
+        "fullName": "java.awt.Component",
+        "simpleName": "Component",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "modalAppContext",
+      "type": {
+        "fullName": "sun.awt.AppContext",
+        "simpleName": "AppContext",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Container",
+      "variableName": "containerSerializedDataVersion",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "log",
+      "type": {
+        "fullName": "sun.util.logging.PlatformLogger",
+        "simpleName": "PlatformLogger",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "eventLog",
+      "type": {
+        "fullName": "sun.util.logging.PlatformLogger",
+        "simpleName": "PlatformLogger",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "focusLog",
+      "type": {
+        "fullName": "sun.util.logging.PlatformLogger",
+        "simpleName": "PlatformLogger",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mixingLog",
+      "type": {
+        "fullName": "sun.util.logging.PlatformLogger",
+        "simpleName": "PlatformLogger",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "peer",
+      "type": {
+        "fullName": "java.awt.peer.ComponentPeer",
+        "simpleName": "ComponentPeer",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "parent",
+      "type": {
+        "fullName": "java.awt.Container",
+        "simpleName": "Container",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "appContext",
+      "type": {
+        "fullName": "sun.awt.AppContext",
+        "simpleName": "AppContext",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "x",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "y",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "width",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "height",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "foreground",
+      "type": {
+        "fullName": "java.awt.Color",
+        "simpleName": "Color",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "background",
+      "type": {
+        "fullName": "java.awt.Color",
+        "simpleName": "Color",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "font",
+      "type": {
+        "fullName": "java.awt.Font",
+        "simpleName": "Font",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "peerFont",
+      "type": {
+        "fullName": "java.awt.Font",
+        "simpleName": "Font",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "cursor",
+      "type": {
+        "fullName": "java.awt.Cursor",
+        "simpleName": "Cursor",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "locale",
+      "type": {
+        "fullName": "java.util.Locale",
+        "simpleName": "Locale",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "graphicsConfig",
+      "type": {
+        "fullName": "java.awt.GraphicsConfiguration",
+        "simpleName": "GraphicsConfiguration",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "bufferStrategy",
+      "type": {
+        "fullName": "java.awt.image.BufferStrategy",
+        "simpleName": "BufferStrategy",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "ignoreRepaint",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "visible",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "enabled",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "valid",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "dropTarget",
+      "type": {
+        "fullName": "java.awt.dnd.DropTarget",
+        "simpleName": "DropTarget",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "popups",
+      "type": {
+        "fullName": "java.util.Vector",
+        "simpleName": "Vector",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.PopupMenu",
+          "simpleName": "PopupMenu",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "nameExplicitlySet",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "focusable",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "FOCUS_TRAVERSABLE_UNKNOWN",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "FOCUS_TRAVERSABLE_DEFAULT",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "FOCUS_TRAVERSABLE_SET",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "isFocusTraversableOverridden",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "focusTraversalKeys",
+      "type": {
+        "fullName": "java.util.Set[]",
+        "simpleName": "Set[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.util.Set",
+          "simpleName": "Set",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": [{
+            "fullName": "javax.swing.KeyStroke",
+            "simpleName": "KeyStroke",
+            "isSerializable": true,
+            "typeSource": "STANDARD",
+            "genericTypes": []
+          }]
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "focusTraversalKeyPropertyNames",
+      "type": {
+        "fullName": "java.lang.String[]",
+        "simpleName": "String[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.String",
+          "simpleName": "String",
+          "isSerializable": true,
+          "typeSource": "PRIMITIVE",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "focusTraversalKeysEnabled",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "LOCK",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "acc",
+      "type": {
+        "fullName": "java.security.AccessControlContext",
+        "simpleName": "AccessControlContext",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "minSize",
+      "type": {
+        "fullName": "java.awt.Dimension",
+        "simpleName": "Dimension",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "minSizeSet",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "prefSize",
+      "type": {
+        "fullName": "java.awt.Dimension",
+        "simpleName": "Dimension",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "prefSizeSet",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "maxSize",
+      "type": {
+        "fullName": "java.awt.Dimension",
+        "simpleName": "Dimension",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "maxSizeSet",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "componentOrientation",
+      "type": {
+        "fullName": "java.awt.ComponentOrientation",
+        "simpleName": "ComponentOrientation",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "newEventsOnly",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "componentListener",
+      "type": {
+        "fullName": "java.awt.event.ComponentListener",
+        "simpleName": "ComponentListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "focusListener",
+      "type": {
+        "fullName": "java.awt.event.FocusListener",
+        "simpleName": "FocusListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "hierarchyListener",
+      "type": {
+        "fullName": "java.awt.event.HierarchyListener",
+        "simpleName": "HierarchyListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "hierarchyBoundsListener",
+      "type": {
+        "fullName": "java.awt.event.HierarchyBoundsListener",
+        "simpleName": "HierarchyBoundsListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "keyListener",
+      "type": {
+        "fullName": "java.awt.event.KeyListener",
+        "simpleName": "KeyListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mouseListener",
+      "type": {
+        "fullName": "java.awt.event.MouseListener",
+        "simpleName": "MouseListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mouseMotionListener",
+      "type": {
+        "fullName": "java.awt.event.MouseMotionListener",
+        "simpleName": "MouseMotionListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mouseWheelListener",
+      "type": {
+        "fullName": "java.awt.event.MouseWheelListener",
+        "simpleName": "MouseWheelListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "inputMethodListener",
+      "type": {
+        "fullName": "java.awt.event.InputMethodListener",
+        "simpleName": "InputMethodListener",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "actionListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "adjustmentListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "componentListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "containerListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "focusListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "itemListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "keyListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mouseListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mouseMotionListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mouseWheelListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "textListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "ownedWindowK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "windowListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "inputMethodListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "hierarchyListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "hierarchyBoundsListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "windowStateListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "windowFocusListenerK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "eventMask",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "isInc",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "incRate",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "TOP_ALIGNMENT",
+      "type": {
+        "fullName": "float",
+        "simpleName": "float",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "CENTER_ALIGNMENT",
+      "type": {
+        "fullName": "float",
+        "simpleName": "float",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "BOTTOM_ALIGNMENT",
+      "type": {
+        "fullName": "float",
+        "simpleName": "float",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "LEFT_ALIGNMENT",
+      "type": {
+        "fullName": "float",
+        "simpleName": "float",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "RIGHT_ALIGNMENT",
+      "type": {
+        "fullName": "float",
+        "simpleName": "float",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "changeSupport",
+      "type": {
+        "fullName": "java.beans.PropertyChangeSupport",
+        "simpleName": "PropertyChangeSupport",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "objectLock",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "isPacked",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "boundsOp",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "compoundShape",
+      "type": {
+        "fullName": "sun.java2d.pipe.Region",
+        "simpleName": "Region",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "mixingCutoutRegion",
+      "type": {
+        "fullName": "sun.java2d.pipe.Region",
+        "simpleName": "Region",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "isAddNotifyComplete",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "backgroundEraseDisabled",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "eventCache",
+      "type": {
+        "fullName": "sun.awt.EventQueueItem[]",
+        "simpleName": "EventQueueItem[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "sun.awt.EventQueueItem",
+          "simpleName": "EventQueueItem",
+          "isSerializable": false,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "coalescingEnabled",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "coalesceMap",
+      "type": {
+        "fullName": "java.util.Map",
+        "simpleName": "Map",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.Class",
+          "simpleName": "Class",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": [{
+            "fullName": "?",
+            "simpleName": "?",
+            "isSerializable": false,
+            "typeSource": "LIBRARY",
+            "genericTypes": []
+          }]
+        }, {
+          "fullName": "java.lang.Boolean",
+          "simpleName": "Boolean",
+          "isSerializable": true,
+          "typeSource": "PRIMITIVE",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "coalesceEventsParams",
+      "type": {
+        "fullName": "java.lang.Class[]",
+        "simpleName": "Class[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.Class",
+          "simpleName": "Class",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": [{
+            "fullName": "?",
+            "simpleName": "?",
+            "isSerializable": false,
+            "typeSource": "LIBRARY",
+            "genericTypes": []
+          }]
+        }]
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "requestFocusController",
+      "type": {
+        "fullName": "sun.awt.RequestFocusController",
+        "simpleName": "RequestFocusController",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "autoFocusTransferOnDisposal",
+      "type": {
+        "fullName": "boolean",
+        "simpleName": "boolean",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "componentSerializedDataVersion",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.Component",
+      "variableName": "accessibleContext",
+      "type": {
+        "fullName": "javax.accessibility.AccessibleContext",
+        "simpleName": "AccessibleContext",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "WIDTH",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "HEIGHT",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "PROPERTIES",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "SOMEBITS",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "FRAMEBITS",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "ALLBITS",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "ERROR",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.awt.image.ImageObserver",
+      "variableName": "ABORT",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.DesktopTester",
+    "fields": [{
+      "parentName": "com.coveros.training.autoinsurance.DesktopTester",
+      "variableName": "scriptClient",
+      "type": {
+        "fullName": "com.coveros.training.autoinsurance.AutoInsuranceScriptClient",
+        "simpleName": "AutoInsuranceScriptClient",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.DesktopUiTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.ExecutionDataClient",
+    "fields": [{
+      "parentName": "com.coveros.training.autoinsurance.ExecutionDataClient",
+      "variableName": "ADDRESS",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.InvalidClaimsException",
+    "fields": [{
+      "parentName": "java.lang.RuntimeException",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Exception",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "backtrace",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "detailMessage",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "UNASSIGNED_STACK",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "cause",
+      "type": {
+        "fullName": "java.lang.Throwable",
+        "simpleName": "Throwable",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "stackTrace",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "depth",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_SENTINEL",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "suppressedExceptions",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "NULL_CAUSE_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SELF_SUPPRESSION_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "CAUSE_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "EMPTY_THROWABLE_ARRAY",
+      "type": {
+        "fullName": "java.lang.Throwable[]",
+        "simpleName": "Throwable[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.Throwable",
+          "simpleName": "Throwable",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.autoinsurance.WarningLetterEnum",
+    "fields": [{
+      "parentName": "java.lang.Enum",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Enum",
+      "variableName": "ordinal",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.cartesianproduct.CartesianProduct",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.cartesianproduct.CartesianProductStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.cartesianproduct.CartesianProductStepDefs",
+      "variableName": "setOfSets",
+      "type": {
+        "fullName": "java.util.Set",
+        "simpleName": "Set",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "javax.swing.KeyStroke",
+          "simpleName": "KeyStroke",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "com.coveros.training.cartesianproduct.CartesianProductStepDefs",
+      "variableName": "result",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.expenses.AlcoholCalculator",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.expenses.AlcoholResult",
+    "fields": [{
+      "parentName": "com.coveros.training.expenses.AlcoholResult",
+      "variableName": "foodPrice",
+      "type": {
+        "fullName": "java.lang.Double",
+        "simpleName": "Double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.expenses.AlcoholResult",
+      "variableName": "alcoholPrice",
+      "type": {
+        "fullName": "java.lang.Double",
+        "simpleName": "Double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.expenses.AlcoholResult",
+      "variableName": "foodRatio",
+      "type": {
+        "fullName": "java.lang.Double",
+        "simpleName": "Double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.expenses.AlcoholStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.expenses.AlcoholStepDefs",
+      "variableName": "alcoholResult",
+      "type": {
+        "fullName": "com.coveros.training.expenses.AlcoholResult",
+        "simpleName": "AlcoholResult",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.expenses.AlcoholStepDefs",
+      "variableName": "dinnerPrices",
+      "type": {
+        "fullName": "com.coveros.training.expenses.DinnerPrices",
+        "simpleName": "DinnerPrices",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.expenses.DinnerPrices",
+    "fields": [{
+      "parentName": "com.coveros.training.expenses.DinnerPrices",
+      "variableName": "subTotal",
+      "type": {
+        "fullName": "double",
+        "simpleName": "double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.expenses.DinnerPrices",
+      "variableName": "foodTotal",
+      "type": {
+        "fullName": "double",
+        "simpleName": "double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.expenses.DinnerPrices",
+      "variableName": "tip",
+      "type": {
+        "fullName": "double",
+        "simpleName": "double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.expenses.DinnerPrices",
+      "variableName": "tax",
+      "type": {
+        "fullName": "double",
+        "simpleName": "double",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.helpers.AssertionException",
+    "fields": [{
+      "parentName": "java.lang.RuntimeException",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Exception",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "backtrace",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "detailMessage",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "UNASSIGNED_STACK",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "cause",
+      "type": {
+        "fullName": "java.lang.Throwable",
+        "simpleName": "Throwable",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "stackTrace",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "depth",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_SENTINEL",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "suppressedExceptions",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "NULL_CAUSE_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SELF_SUPPRESSION_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "CAUSE_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "EMPTY_THROWABLE_ARRAY",
+      "type": {
+        "fullName": "java.lang.Throwable[]",
+        "simpleName": "Throwable[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.Throwable",
+          "simpleName": "Throwable",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.helpers.CheckUtils",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.helpers.CheckUtilsTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.helpers.DateUtils",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.helpers.DateUtilsTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.helpers.ServletUtils",
+    "fields": [{
+      "parentName": "com.coveros.training.helpers.ServletUtils",
+      "variableName": "RESTFUL_RESULT_JSP",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.ServletUtils",
+      "variableName": "RESULT_JSP",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.helpers.StringUtils",
+    "fields": [{
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "SINGLE_QUOTE",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "DOUBLE_QUOTE",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "BACKSLASH",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "NEW_LINE",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "CARRIAGE_RETURN",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "TAB",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "BACKSPACE",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.helpers.StringUtils",
+      "variableName": "FORM_FEED",
+      "type": {
+        "fullName": "byte",
+        "simpleName": "byte",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.helpers.StringUtilsTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.library.domainobjects.Book",
+    "fields": [{
+      "parentName": "com.coveros.training.library.domainobjects.Book",
+      "variableName": "title",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.domainobjects.Book",
+      "variableName": "id",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.domainobjects.BookTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.library.domainobjects.Borrower",
+    "fields": [{
+      "parentName": "com.coveros.training.library.domainobjects.Borrower",
+      "variableName": "id",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.domainobjects.Borrower",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.domainobjects.BorrowerTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.library.domainobjects.LibraryActionResults",
+    "fields": [{
+      "parentName": "java.lang.Enum",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Enum",
+      "variableName": "ordinal",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.domainobjects.Loan",
+    "fields": [{
+      "parentName": "com.coveros.training.library.domainobjects.Loan",
+      "variableName": "checkoutDate",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.domainobjects.Loan",
+      "variableName": "book",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.domainobjects.Loan",
+      "variableName": "borrower",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.domainobjects.Loan",
+      "variableName": "id",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.domainobjects.LoanTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "ALICE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "DEVOPS_HANDBOOK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "myBook",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "myBookTitle",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "myBorrower",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "myBorrowerName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "JAN_1ST",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "JAN_2ND",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "libraryActionResults",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.LibraryActionResults",
+        "simpleName": "LibraryActionResults",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "allBooks",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "com.coveros.training.library.AddDeleteListSearchBooksAndBorrowersStepDefs",
+      "variableName": "allBorrowers",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.BookCheckOutStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "ANOTHER_BOOK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "myBook",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "myBookTitle",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "myBorrowerName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "myBorrower",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "JAN_1ST",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "JAN_2ND",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "libraryActionResults",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.LibraryActionResults",
+        "simpleName": "LibraryActionResults",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.BookCheckOutStepDefs",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LendingTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "BORROW_DATE",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "BORROWER_A_NAME",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "BORROWER_B_NAME",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "TITLE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "SAMPLE_BOOK",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "SAMPLE_BORROWER_A",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "SAMPLE_BORROWER_B",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LendingTests",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryBookListAvailableServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServlet",
+      "variableName": "RESULT",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServlet",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+      "variableName": "A_BOOK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+      "variableName": "DEFAULT_BOOK",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+      "variableName": "libraryBookListAvailableServlet",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryBookListAvailableServlet",
+        "simpleName": "LibraryBookListAvailableServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+      "variableName": "requestDispatcher",
+      "type": {
+        "fullName": "javax.servlet.RequestDispatcher",
+        "simpleName": "RequestDispatcher",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListAvailableServletTests",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryBookListSearchServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServlet",
+      "variableName": "RESULT",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServlet",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+      "variableName": "A_BOOK",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+      "variableName": "DEFAULT_BOOK",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+      "variableName": "libraryBookListSearchServlet",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryBookListSearchServlet",
+        "simpleName": "LibraryBookListSearchServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+      "variableName": "requestDispatcher",
+      "type": {
+        "fullName": "javax.servlet.RequestDispatcher",
+        "simpleName": "RequestDispatcher",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBookListSearchServletTests",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryBorrowerListSearchServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServlet",
+      "variableName": "RESULT",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServlet",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+      "variableName": "A_BORROWER",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+      "variableName": "DEFAULT_BORROWER",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+      "variableName": "libraryBorrowerListSearchServlet",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryBorrowerListSearchServlet",
+        "simpleName": "LibraryBorrowerListSearchServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+      "variableName": "requestDispatcher",
+      "type": {
+        "fullName": "javax.servlet.RequestDispatcher",
+        "simpleName": "RequestDispatcher",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryBorrowerListSearchServletTests",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryLendServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryLendServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServlet",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryLendServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryLendServletTests",
+      "variableName": "BORROW_DATE",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServletTests",
+      "variableName": "BOOK_TITLE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServletTests",
+      "variableName": "ALICE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServletTests",
+      "variableName": "libraryLendServlet",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryLendServlet",
+        "simpleName": "LibraryLendServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServletTests",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryLendServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryRegisterBookServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryRegisterBookServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBookServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBookServlet",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryRegisterBookServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryRegisterBookServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBookServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBookServletTests",
+      "variableName": "libraryRegisterBookServlet",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryRegisterBookServlet",
+        "simpleName": "LibraryRegisterBookServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBookServletTests",
+      "variableName": "requestDispatcher",
+      "type": {
+        "fullName": "javax.servlet.RequestDispatcher",
+        "simpleName": "RequestDispatcher",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryRegisterBorrowerServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryRegisterBorrowerServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBorrowerServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBorrowerServlet",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryRegisterBorrowerServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryRegisterBorrowerServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBorrowerServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBorrowerServletTests",
+      "variableName": "libraryRegisterBorrowerServlet",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryRegisterBorrowerServlet",
+        "simpleName": "LibraryRegisterBorrowerServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryRegisterBorrowerServletTests",
+      "variableName": "requestDispatcher",
+      "type": {
+        "fullName": "javax.servlet.RequestDispatcher",
+        "simpleName": "RequestDispatcher",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryUtils",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryUtils",
+      "variableName": "persistence",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryUtils",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.library.LibraryUtilsTests",
+    "fields": [{
+      "parentName": "com.coveros.training.library.LibraryUtilsTests",
+      "variableName": "mockPersistenceLayer",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryUtilsTests",
+      "variableName": "libraryUtils",
+      "type": {
+        "fullName": "com.coveros.training.library.LibraryUtils",
+        "simpleName": "LibraryUtils",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryUtilsTests",
+      "variableName": "DEFAULT_BOOK",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryUtilsTests",
+      "variableName": "DEFAULT_BORROWER",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryUtilsTests",
+      "variableName": "BORROW_DATE",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.library.LibraryUtilsTests",
+      "variableName": "thrown",
+      "type": {
+        "fullName": "org.junit.rules.ExpectedException",
+        "simpleName": "ExpectedException",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.math.AckermannStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.math.AckermannStepDefs",
+      "variableName": "result",
+      "type": {
+        "fullName": "java.math.BigInteger",
+        "simpleName": "BigInteger",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.math.FibonacciStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.math.FibonacciStepDefs",
+      "variableName": "result",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.math.MathStepDefs",
+    "fields": [{
+      "parentName": "com.coveros.training.math.MathStepDefs",
+      "variableName": "calculated_total",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.AckServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckServlet",
+      "variableName": "RESULT",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.AckServletTests",
+      "variableName": "ackServlet",
+      "type": {
+        "fullName": "com.coveros.training.mathematics.AckServlet",
+        "simpleName": "AckServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckServletTests",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.Ackermann",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckermannIterative$$$Field",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckermannIterative$$$FunctionalAckermann",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckermannIterative$$",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckermannIterative",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckermannIterativeParameterizedTests",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.AckermannIterativeParameterizedTests",
+      "variableName": "m",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckermannIterativeParameterizedTests",
+      "variableName": "n",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckermannIterativeParameterizedTests",
+      "variableName": "expected",
+      "type": {
+        "fullName": "java.math.BigInteger",
+        "simpleName": "BigInteger",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.AckermannParameterizedTests",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.AckermannParameterizedTests",
+      "variableName": "m",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckermannParameterizedTests",
+      "variableName": "n",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.AckermannParameterizedTests",
+      "variableName": "expected",
+      "type": {
+        "fullName": "java.math.BigInteger",
+        "simpleName": "BigInteger",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.Calculator$iFoo",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.Calculator$Foo",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.Calculator$iBar",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.Calculator$Bar",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.Calculator$Baz",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.Calculator",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.Calculator",
+      "variableName": "baz",
+      "type": {
+        "fullName": "com.coveros.training.mathematics.Calculator$Baz",
+        "simpleName": "Baz",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.CalculatorTests",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.FibServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.FibServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibServlet",
+      "variableName": "RESULT",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibServlet",
+      "variableName": "FIBONACCI_VALUE_IS",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.FibServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.FibServletTests",
+      "variableName": "fibServlet",
+      "type": {
+        "fullName": "com.coveros.training.mathematics.FibServlet",
+        "simpleName": "FibServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibServletTests",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.Fibonacci",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.FibonacciIterative",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.FibonacciParameterizedTests",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.FibonacciParameterizedTests",
+      "variableName": "fInput",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibonacciParameterizedTests",
+      "variableName": "fExpected",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.FibonacciTests",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.FibonacciTests",
+      "variableName": "FIB_FOR_43",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibonacciTests",
+      "variableName": "FIB_FOR_200",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.FibonacciTests",
+      "variableName": "FIB_FOR_2000",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "F",
+    "fields": []
+  }, {
+    "fullName": "V",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.FunctionalField",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.MathServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.MathServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.MathServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.mathematics.MathServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.mathematics.MathServletTests",
+      "variableName": "mathServlet",
+      "type": {
+        "fullName": "com.coveros.training.mathematics.MathServlet",
+        "simpleName": "MathServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.MathServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.MathServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.mathematics.MathServletTests",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "M",
+    "fields": []
+  }, {
+    "fullName": "N",
+    "fields": []
+  }, {
+    "fullName": "I",
+    "fields": []
+  }, {
+    "fullName": "O",
+    "fields": []
+  }, {
+    "fullName": "I",
+    "fields": []
+  }, {
+    "fullName": "O",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.TailRecursive$$",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.mathematics.TailRecursive",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.DbServlet",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.DbServlet",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.DbServlet",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.DbServlet",
+      "variableName": "RESULT",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.DbServlet",
+      "variableName": "logger",
+      "type": {
+        "fullName": "org.slf4j.Logger",
+        "simpleName": "Logger",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.persistence.DbServletTests",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.DbServletTests",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.DbServletTests",
+      "variableName": "dbServlet",
+      "type": {
+        "fullName": "com.coveros.training.persistence.DbServlet",
+        "simpleName": "DbServlet",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.DbServletTests",
+      "variableName": "request",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletRequest",
+        "simpleName": "HttpServletRequest",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.DbServletTests",
+      "variableName": "response",
+      "type": {
+        "fullName": "javax.servlet.http.HttpServletResponse",
+        "simpleName": "HttpServletResponse",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.EmptyDataSource",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.EmptyDataSourceTests",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.EmptyDataSourceTests",
+      "variableName": "emptyDataSource",
+      "type": {
+        "fullName": "com.coveros.training.persistence.EmptyDataSource",
+        "simpleName": "EmptyDataSource",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.NotImplementedException",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.NotImplementedException",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.RuntimeException",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Exception",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "backtrace",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "detailMessage",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "UNASSIGNED_STACK",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "cause",
+      "type": {
+        "fullName": "java.lang.Throwable",
+        "simpleName": "Throwable",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "stackTrace",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "depth",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_SENTINEL",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "suppressedExceptions",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "NULL_CAUSE_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SELF_SUPPRESSION_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "CAUSE_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "EMPTY_THROWABLE_ARRAY",
+      "type": {
+        "fullName": "java.lang.Throwable[]",
+        "simpleName": "Throwable[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.Throwable",
+          "simpleName": "Throwable",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }]
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.ParameterObject",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.ParameterObject",
+      "variableName": "data",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.ParameterObject",
+      "variableName": "type",
+      "type": {
+        "fullName": "java.lang.Class",
+        "simpleName": "Class",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "?",
+          "simpleName": "?",
+          "isSerializable": false,
+          "typeSource": "LIBRARY",
+          "genericTypes": []
+        }]
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.persistence.ParameterObjectTests",
+    "fields": []
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "R",
+    "fields": []
+  }, {
+    "fullName": "R",
+    "fields": []
+  }, {
+    "fullName": "E",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.PersistenceLayer$ThrowingFunction",
+    "fields": []
+  }, {
+    "fullName": "R",
+    "fields": []
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.PersistenceLayer",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.PersistenceLayer",
+      "variableName": "dataSource",
+      "type": {
+        "fullName": "javax.sql.DataSource",
+        "simpleName": "DataSource",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.persistence.PersistenceLayerTests",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.PersistenceLayerTests",
+      "variableName": "DEFAULT_NAME",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.PersistenceLayerTests",
+      "variableName": "BORROW_DATE",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.PersistenceLayerTests",
+      "variableName": "DEFAULT_BOOK",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Book",
+        "simpleName": "Book",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.PersistenceLayerTests",
+      "variableName": "DEFAULT_BORROWER",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Borrower",
+        "simpleName": "Borrower",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.PersistenceLayerTests",
+      "variableName": "DEFAULT_LOAN",
+      "type": {
+        "fullName": "com.coveros.training.library.domainobjects.Loan",
+        "simpleName": "Loan",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.PersistenceLayerTests",
+      "variableName": "DEFAULT_USER",
+      "type": {
+        "fullName": "com.coveros.training.authentication.domainobjects.User",
+        "simpleName": "User",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.PersistenceLayerTests",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "R",
+    "fields": []
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.SqlData",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.SqlData",
+      "variableName": "description",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.SqlData",
+      "variableName": "preparedStatement",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.SqlData",
+      "variableName": "params",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.SqlData",
+      "variableName": "extractor",
+      "type": {
+        "fullName": "java.util.function.Function",
+        "simpleName": "Function",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.sql.ResultSet",
+          "simpleName": "ResultSet",
+          "isSerializable": false,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }, {
+          "fullName": "java.util.Optional",
+          "simpleName": "Optional",
+          "isSerializable": false,
+          "typeSource": "STANDARD",
+          "genericTypes": [{
+            "fullName": "R",
+            "simpleName": "R",
+            "isSerializable": false,
+            "typeSource": "LIBRARY",
+            "genericTypes": []
+          }]
+        }]
+      }
+    }]
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.persistence.SqlDataTests",
+    "fields": [{
+      "parentName": "com.coveros.training.persistence.SqlDataTests",
+      "variableName": "BORROW_DATE",
+      "type": {
+        "fullName": "java.sql.Date",
+        "simpleName": "Date",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.persistence.SqlDataTests",
+      "variableName": "preparedStatement",
+      "type": {
+        "fullName": "java.sql.PreparedStatement",
+        "simpleName": "PreparedStatement",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.persistence.SqlRuntimeException",
+    "fields": [{
+      "parentName": "java.lang.RuntimeException",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Exception",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "serialVersionUID",
+      "type": {
+        "fullName": "long",
+        "simpleName": "long",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "backtrace",
+      "type": {
+        "fullName": "java.lang.Object",
+        "simpleName": "Object",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "detailMessage",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "UNASSIGNED_STACK",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "cause",
+      "type": {
+        "fullName": "java.lang.Throwable",
+        "simpleName": "Throwable",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "stackTrace",
+      "type": {
+        "fullName": "java.lang.StackTraceElement[]",
+        "simpleName": "StackTraceElement[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.StackTraceElement",
+          "simpleName": "StackTraceElement",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "depth",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_SENTINEL",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "suppressedExceptions",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.awt.Rectangle",
+          "simpleName": "Rectangle",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "NULL_CAUSE_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SELF_SUPPRESSION_MESSAGE",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "CAUSE_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "SUPPRESSED_CAPTION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.lang.Throwable",
+      "variableName": "EMPTY_THROWABLE_ARRAY",
+      "type": {
+        "fullName": "java.lang.Throwable[]",
+        "simpleName": "Throwable[]",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "java.lang.Throwable",
+          "simpleName": "Throwable",
+          "isSerializable": true,
+          "typeSource": "STANDARD",
+          "genericTypes": []
+        }]
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.selenified.SelenifiedSample",
+    "fields": [{
+      "parentName": "com.coveros.training.selenified.SelenifiedSample",
+      "variableName": "BASE_URL",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.selenified.SelenifiedSample",
+      "variableName": "LIBRARY_URL",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.selenified.SelenifiedSample",
+      "variableName": "RESET_DATABASE_URL",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.tomcat.WebAppListener",
+    "fields": [{
+      "parentName": "com.coveros.training.tomcat.WebAppListener",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.tomcat.WebAppListenerTests",
+    "fields": [{
+      "parentName": "com.coveros.training.tomcat.WebAppListenerTests",
+      "variableName": "pl",
+      "type": {
+        "fullName": "com.coveros.training.persistence.IPersistenceLayer",
+        "simpleName": "IPersistenceLayer",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.tomcat.WebAppListenerTests",
+      "variableName": "webAppListener",
+      "type": {
+        "fullName": "com.coveros.training.tomcat.WebAppListener",
+        "simpleName": "WebAppListener",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "com.coveros.training.tomcat.WebAppListenerTests",
+      "variableName": "servletContextEvent",
+      "type": {
+        "fullName": "javax.servlet.ServletContextEvent",
+        "simpleName": "ServletContextEvent",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.ApiCalls",
+    "fields": []
+  }, {
+    "fullName": "com.coveros.training.HtmlUnitTests",
+    "fields": [{
+      "parentName": "com.coveros.training.HtmlUnitTests",
+      "variableName": "driver",
+      "type": {
+        "fullName": "com.gargoylesoftware.htmlunit.WebClient",
+        "simpleName": "WebClient",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "com.coveros.training.SeleniumTests",
+    "fields": [{
+      "parentName": "com.coveros.training.SeleniumTests",
+      "variableName": "driver",
+      "type": {
+        "fullName": "org.openqa.selenium.WebDriver",
+        "simpleName": "WebDriver",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }]
+}

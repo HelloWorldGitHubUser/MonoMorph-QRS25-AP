@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.dto.generated.proto.productmapper;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.dto.generated.proto.productmapper";
+
+// Product domain object representation
+message Product {
+    string productId = 1;
+    string categoryId = 2;
+    string name = 3;
+    string description = 4;
+    string imageUrl = 5;
+    double listPrice = 6;
+    double unitCost = 7;
+    int32 quantity = 8;
+    bool featured = 9;
+}
+
+// Request and Response messages for getProductListByCategory
+message GetProductListByCategoryRequest {
+    string categoryId = 1;
+}
+
+message GetProductListByCategoryResponse {
+    repeated Product products = 1;
+}
+
+// Request and Response messages for getProduct
+message GetProductRequest {
+    string productId = 1;
+}
+
+message GetProductResponse {
+    Product product = 1;
+}
+
+// Request and Response messages for searchProductList
+message SearchProductListRequest {
+    string keywords = 1;
+}
+
+message SearchProductListResponse {
+    repeated Product products = 1;
+}
+
+// The main DTO that encompasses all operations
+message ProductMapperDTO {
+    oneof request {
+        GetProductListByCategoryRequest getProductListByCategoryRequest = 1;
+        GetProductRequest getProductRequest = 2;
+        SearchProductListRequest searchProductListRequest = 3;
+    }
+
+    oneof response {
+        GetProductListByCategoryResponse getProductListByCategoryResponse = 4;
+        GetProductResponse getProductResponse = 5;
+        SearchProductListResponse searchProductListResponse = 6;
+    }
+}
+
+// Service definition for the ProductMapper operations
+service ProductMapperService {
+    rpc GetProductListByCategory(GetProductListByCategoryRequest) returns (GetProductListByCategoryResponse);
+    rpc GetProduct(GetProductRequest) returns (GetProductResponse);
+    rpc SearchProductList(SearchProductListRequest) returns (SearchProductListResponse);
+}

@@ -1,0 +1,40 @@
+class full name,class short name,reference decomposition,duplicated,notes
+org.springframework.samples.petclinic.model.BaseEntity,BaseEntity,customers,True,
+org.springframework.samples.petclinic.model.BaseEntity,BaseEntity,visits,True,
+org.springframework.samples.petclinic.model.BaseEntity,BaseEntity,vets,True,
+org.springframework.samples.petclinic.system.CacheConfiguration,CacheConfiguration,vets,,
+org.springframework.samples.petclinic.model.NamedEntity,NamedEntity,customers,True,
+org.springframework.samples.petclinic.model.NamedEntity,NamedEntity,visits,True,
+org.springframework.samples.petclinic.model.NamedEntity,NamedEntity,vets,True,
+org.springframework.samples.petclinic.owner.Owner,Owner,customers,,
+org.springframework.samples.petclinic.owner.OwnerController,OwnerController,customers,,
+org.springframework.samples.petclinic.owner.OwnerRepository,OwnerRepository,customers,,
+org.springframework.samples.petclinic.model.Person,Person,customers,True,
+org.springframework.samples.petclinic.model.Person,Person,visits,True,
+org.springframework.samples.petclinic.model.Person,Person,vets,True,
+org.springframework.samples.petclinic.owner.Pet,Pet,customers,,
+org.springframework.samples.petclinic.PetClinicApplication,PetClinicApplication,customers,True,
+org.springframework.samples.petclinic.PetClinicApplication,PetClinicApplication,vets,True,
+org.springframework.samples.petclinic.PetClinicApplication,PetClinicApplication,visits,True,
+org.springframework.samples.petclinic.owner.PetController,PetController,customers,,
+org.springframework.samples.petclinic.owner.PetType,PetType,customers,,
+org.springframework.samples.petclinic.owner.PetValidator,PetValidator,customers,,
+org.springframework.samples.petclinic.vet.Specialty,Specialty,vets,,
+org.springframework.samples.petclinic.vet.Vet,Vet,vets,,
+org.springframework.samples.petclinic.vet.VetController,VetController,vets,,
+org.springframework.samples.petclinic.vet.VetRepository,VetRepository,vets,,
+org.springframework.samples.petclinic.vet.Vets,Vets,vets,,
+org.springframework.samples.petclinic.owner.Visit,Visit,visits,,
+org.springframework.samples.petclinic.owner.VisitController,VisitController,visits,,
+org.springframework.samples.petclinic.system.CrashController,CrashController,customers,True,copied because of uncounted
+org.springframework.samples.petclinic.system.CrashController,CrashController,visits,True,copied because of uncounted
+org.springframework.samples.petclinic.system.CrashController,CrashController,vets,True,copied because of uncounted
+org.springframework.samples.petclinic.PetClinicRuntimeHints,PetClinicRuntimeHints,customers,True,copied because of uncounted
+org.springframework.samples.petclinic.PetClinicRuntimeHints,PetClinicRuntimeHints,visits,True,copied because of uncounted
+org.springframework.samples.petclinic.PetClinicRuntimeHints,PetClinicRuntimeHints,vets,True,copied because of uncounted
+org.springframework.samples.petclinic.owner.PetTypeFormatter,PetTypeFormatter,customers,True,copied because of uncounted
+org.springframework.samples.petclinic.owner.PetTypeFormatter,PetTypeFormatter,visits,True,copied because of uncounted
+org.springframework.samples.petclinic.owner.PetTypeFormatter,PetTypeFormatter,vets,True,copied because of uncounted
+org.springframework.samples.petclinic.system.WelcomeController,WelcomeController,customers,True,copied because of uncounted
+org.springframework.samples.petclinic.system.WelcomeController,WelcomeController,visits,True,copied because of uncounted
+org.springframework.samples.petclinic.system.WelcomeController,WelcomeController,vets,True,copied because of uncounted

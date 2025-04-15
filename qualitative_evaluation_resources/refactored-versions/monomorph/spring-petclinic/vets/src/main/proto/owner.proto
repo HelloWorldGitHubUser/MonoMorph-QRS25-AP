@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+package org.springframework.samples.petclinic.monomorph.dto.generated.proto.owner;
+
+option java_multiple_files = true;
+option java_package = "org.springframework.samples.petclinic.monomorph.dto.generated.proto.owner";
+
+import "pet.proto";
+import "visit.proto";
+
+service OwnerService {
+    // Get a pet by name
+    rpc GetPetByName(GetPetByNameRequest) returns (GetPetResponse);
+
+    // Get a pet by ID
+    rpc GetPetById(GetPetByIdRequest) returns (GetPetResponse);
+
+    // Get a pet by name with ignoreNew flag
+    rpc GetPetByNameWithIgnoreFlag(GetPetByNameWithIgnoreFlagRequest) returns (GetPetResponse);
+
+    // Add a visit to a pet
+    rpc AddVisit(AddVisitRequest) returns (AddVisitResponse);
+}
+
+// Message representing the Owner class
+message OwnerDTO {
+    int32 id = 1;
+    bool new = 2;
+    string lastName = 3;
+    string firstName = 4;
+    string address = 5;
+    string city = 6;
+    string telephone = 7;
+    repeated org.springframework.samples.petclinic.monomorph.dto.generated.proto.pet.PetDTO pets = 8;
+}
+
+// Request to get a pet by name
+message GetPetByNameRequest {
+    OwnerDTO owner = 1;
+    string name = 2;
+}
+
+// Request to get a pet by ID
+message GetPetByIdRequest {
+    OwnerDTO owner = 1;
+    int32 id = 2;
+}
+
+// Request to get a pet by name with ignoreNew flag
+message GetPetByNameWithIgnoreFlagRequest {
+    OwnerDTO owner = 1;
+    string name = 2;
+    bool ignoreNew = 3;
+}
+
+// Response for get pet methods
+message GetPetResponse {
+    org.springframework.samples.petclinic.monomorph.dto.generated.proto.pet.PetDTO pet = 1;
+}
+
+// Request to add a visit
+message AddVisitRequest {
+    OwnerDTO owner = 1;
+    int32 petId = 2;
+    org.springframework.samples.petclinic.monomorph.dto.generated.proto.visit.VisitDTO visit = 3;
+}
+
+// Response from add visit
+message AddVisitResponse {
+    OwnerDTO owner = 1;
+}

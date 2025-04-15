@@ -1,0 +1,937 @@
+{
+  "dtos": [{
+    "fullName": "org.springframework.samples.petclinic.model.BaseEntity",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.model.NamedEntity",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.model.NamedEntity",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.model.Person",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.model.Person",
+      "variableName": "firstName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.Person",
+      "variableName": "lastName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.Owner",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.Owner",
+      "variableName": "address",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.Owner",
+      "variableName": "city",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.Owner",
+      "variableName": "telephone",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.Owner",
+      "variableName": "pets",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "org.springframework.samples.petclinic.owner.Pet",
+          "simpleName": "Pet",
+          "isSerializable": true,
+          "typeSource": "LOCAL",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.Person",
+      "variableName": "firstName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.Person",
+      "variableName": "lastName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.OwnerController",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.OwnerController",
+      "variableName": "VIEWS_OWNER_CREATE_OR_UPDATE_FORM",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.OwnerController",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.OwnerControllerTests$1",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+      "variableName": "TEST_OWNER_ID",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+      "variableName": "mockMvc",
+      "type": {
+        "fullName": "org.springframework.test.web.servlet.MockMvc",
+        "simpleName": "MockMvc",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.Pet",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.Pet",
+      "variableName": "birthDate",
+      "type": {
+        "fullName": "java.time.LocalDate",
+        "simpleName": "LocalDate",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.Pet",
+      "variableName": "type",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.PetType",
+        "simpleName": "PetType",
+        "isSerializable": true,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.Pet",
+      "variableName": "visits",
+      "type": {
+        "fullName": "java.util.Set",
+        "simpleName": "Set",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "org.springframework.samples.petclinic.owner.Visit",
+          "simpleName": "Visit",
+          "isSerializable": true,
+          "typeSource": "LOCAL",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.NamedEntity",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetController",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.PetController",
+      "variableName": "VIEWS_PETS_CREATE_OR_UPDATE_FORM",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.PetController",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.PetControllerTests",
+      "variableName": "TEST_OWNER_ID",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.PetControllerTests",
+      "variableName": "TEST_PET_ID",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.PetControllerTests",
+      "variableName": "mockMvc",
+      "type": {
+        "fullName": "org.springframework.test.web.servlet.MockMvc",
+        "simpleName": "MockMvc",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.PetControllerTests",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetType",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.model.NamedEntity",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetTypeFormatter",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.PetTypeFormatter",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests$1",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.model.NamedEntity",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests$2",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.model.NamedEntity",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+      "variableName": "pets",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+      "variableName": "petTypeFormatter",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.PetTypeFormatter",
+        "simpleName": "PetTypeFormatter",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.PetValidator",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.PetValidator",
+      "variableName": "REQUIRED",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.Visit",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.Visit",
+      "variableName": "date",
+      "type": {
+        "fullName": "java.time.LocalDate",
+        "simpleName": "LocalDate",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.Visit",
+      "variableName": "description",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.VisitController",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.VisitController",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+      "variableName": "TEST_OWNER_ID",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+      "variableName": "TEST_PET_ID",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+      "variableName": "mockMvc",
+      "type": {
+        "fullName": "org.springframework.test.web.servlet.MockMvc",
+        "simpleName": "MockMvc",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+      "variableName": "owners",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.owner.OwnerRepository",
+        "simpleName": "OwnerRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+      "variableName": "vets",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.vet.VetRepository",
+        "simpleName": "VetRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+      "variableName": "pageable",
+      "type": {
+        "fullName": "org.springframework.data.domain.Pageable",
+        "simpleName": "Pageable",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "T",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.service.EntityUtils",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.system.CacheConfiguration",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.system.CrashController",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.system.CrashControllerTests",
+      "variableName": "mockMvc",
+      "type": {
+        "fullName": "org.springframework.test.web.servlet.MockMvc",
+        "simpleName": "MockMvc",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.system.WelcomeController",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.vet.Specialty",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.model.NamedEntity",
+      "variableName": "name",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.vet.Vet",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.vet.Vet",
+      "variableName": "specialties",
+      "type": {
+        "fullName": "java.util.Set",
+        "simpleName": "Set",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "org.springframework.samples.petclinic.owner.Visit",
+          "simpleName": "Visit",
+          "isSerializable": true,
+          "typeSource": "LOCAL",
+          "genericTypes": []
+        }]
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.Person",
+      "variableName": "firstName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.Person",
+      "variableName": "lastName",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.model.BaseEntity",
+      "variableName": "id",
+      "type": {
+        "fullName": "java.lang.Integer",
+        "simpleName": "Integer",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.vet.VetController",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.vet.VetController",
+      "variableName": "vetRepository",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.vet.VetRepository",
+        "simpleName": "VetRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.vet.VetControllerTests",
+      "variableName": "mockMvc",
+      "type": {
+        "fullName": "org.springframework.test.web.servlet.MockMvc",
+        "simpleName": "MockMvc",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.vet.VetControllerTests",
+      "variableName": "vets",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.vet.VetRepository",
+        "simpleName": "VetRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.vet.VetRepository",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.vet.VetTests",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.vet.Vets",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.vet.Vets",
+      "variableName": "vets",
+      "type": {
+        "fullName": "java.util.List",
+        "simpleName": "List",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": [{
+          "fullName": "org.springframework.samples.petclinic.owner.Pet",
+          "simpleName": "Pet",
+          "isSerializable": true,
+          "typeSource": "LOCAL",
+          "genericTypes": []
+        }]
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.PetClinicApplication",
+    "fields": []
+  }, {
+    "fullName": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+    "fields": [{
+      "parentName": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+      "variableName": "port",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+      "variableName": "vets",
+      "type": {
+        "fullName": "org.springframework.samples.petclinic.vet.VetRepository",
+        "simpleName": "VetRepository",
+        "isSerializable": false,
+        "typeSource": "LOCAL",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+      "variableName": "builder",
+      "type": {
+        "fullName": "org.springframework.boot.web.client.RestTemplateBuilder",
+        "simpleName": "RestTemplateBuilder",
+        "isSerializable": false,
+        "typeSource": "LIBRARY",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "org.springframework.samples.petclinic.PetClinicRuntimeHints",
+    "fields": []
+  }, {
+    "fullName": "MavenWrapperDownloader$1",
+    "fields": [{
+      "parentName": "java.net.Authenticator",
+      "variableName": "theAuthenticator",
+      "type": {
+        "fullName": "java.net.Authenticator",
+        "simpleName": "Authenticator",
+        "isSerializable": false,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingHost",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingSite",
+      "type": {
+        "fullName": "java.net.InetAddress",
+        "simpleName": "InetAddress",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingPort",
+      "type": {
+        "fullName": "int",
+        "simpleName": "int",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingProtocol",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingPrompt",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingScheme",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingURL",
+      "type": {
+        "fullName": "java.net.URL",
+        "simpleName": "URL",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "requestingAuthType",
+      "type": {
+        "fullName": "java.net.Authenticator$RequestorType",
+        "simpleName": "RequestorType",
+        "isSerializable": true,
+        "typeSource": "STANDARD",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "java.net.Authenticator",
+      "variableName": "key",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }, {
+    "fullName": "MavenWrapperDownloader",
+    "fields": [{
+      "parentName": "MavenWrapperDownloader",
+      "variableName": "WRAPPER_VERSION",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "MavenWrapperDownloader",
+      "variableName": "DEFAULT_DOWNLOAD_URL",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "MavenWrapperDownloader",
+      "variableName": "MAVEN_WRAPPER_PROPERTIES_PATH",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "MavenWrapperDownloader",
+      "variableName": "MAVEN_WRAPPER_JAR_PATH",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }, {
+      "parentName": "MavenWrapperDownloader",
+      "variableName": "PROPERTY_NAME_WRAPPER_URL",
+      "type": {
+        "fullName": "java.lang.String",
+        "simpleName": "String",
+        "isSerializable": true,
+        "typeSource": "PRIMITIVE",
+        "genericTypes": []
+      }
+    }]
+  }]
+}

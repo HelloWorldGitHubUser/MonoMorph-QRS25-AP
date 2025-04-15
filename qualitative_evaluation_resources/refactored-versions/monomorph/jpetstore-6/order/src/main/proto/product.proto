@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.dto.generated.proto.product;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.dto.generated.proto.product";
+
+message ProductDTO {
+    string productId = 1;
+    string categoryId = 2;
+    string name = 3;
+    string description = 4;
+}
+
+// Add other messages and enums as needed

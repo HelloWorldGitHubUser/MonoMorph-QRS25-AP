@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package org.springframework.samples.petclinic.monomorph.dto.generated.proto.pet;
+
+import "pet_type.proto";
+import "visit.proto";
+
+option java_multiple_files = true;
+option java_package = "org.springframework.samples.petclinic.monomorph.dto.generated.proto.pet";
+
+service PetService {
+    // Add a visit to a pet
+    rpc AddVisit(AddVisitRequest) returns (AddVisitResponse);
+}
+
+// Data Transfer Object for Pet class
+message PetDTO {
+    int32 id = 1;
+    string name = 2;
+    string birthDate = 3; // ISO format: YYYY-MM-DD
+    org.springframework.samples.petclinic.monomorph.dto.generated.proto.pettype.PetTypeDTO type = 4;
+    repeated org.springframework.samples.petclinic.monomorph.dto.generated.proto.visit.VisitDTO visits = 5;
+}
+
+// Request for AddVisit method
+message AddVisitRequest {
+    PetDTO pet = 1;
+    org.springframework.samples.petclinic.monomorph.dto.generated.proto.visit.VisitDTO visit = 2;
+}
+
+// Response for AddVisit method
+message AddVisitResponse {
+    // Method returns void, so the response is empty
+    // But we return the updated Pet for convenience
+    PetDTO updatedPet = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.coveros.training.monomorph.dto.generated.proto.borrower;
+
+option java_multiple_files = true;
+option java_package = "com.coveros.training.monomorph.dto.generated.proto.borrower";
+
+message BorrowerDTO {
+    // The identifier for this borrower in the database.
+    int64 id = 1;
+
+    // The name of the borrower
+    string name = 2;
+}

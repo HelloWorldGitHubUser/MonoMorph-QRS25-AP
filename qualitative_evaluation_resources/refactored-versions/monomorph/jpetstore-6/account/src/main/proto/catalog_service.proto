@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.dto.generated.proto.catalogservice;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.dto.generated.proto.catalogservice";
+
+// Import dependencies for mapped DTOs
+import "category_mapper.proto";
+import "product_mapper.proto";
+import "product.proto";
+
+service CatalogServiceService {
+    // Method for retrieving product list by category
+    rpc GetProductListByCategory(GetProductListByCategoryRequest) returns (GetProductListByCategoryResponse);
+}
+
+message CatalogServiceDTO {
+    // Mapper dependencies as per the required mappings
+    org.mybatis.jpetstore.monomorph.dto.generated.proto.categorymapper.CategoryMapperDTO categoryMapper = 1;
+    string itemMapper = 2; // Using refactoredObjectID for ItemMapper
+    org.mybatis.jpetstore.monomorph.dto.generated.proto.productmapper.ProductMapperDTO productMapper = 3;
+}
+
+// Request message for getProductListByCategory method
+message GetProductListByCategoryRequest {
+    CatalogServiceDTO dto = 1;
+    string categoryId = 2;
+}
+
+// Response message for getProductListByCategory method
+message GetProductListByCategoryResponse {
+    repeated org.mybatis.jpetstore.monomorph.dto.generated.proto.product.ProductDTO products = 1;
+}
+
+// RefactoredObjectID for ItemMapper
+message RefactoredObjectID {
+    string id = 1;
+}

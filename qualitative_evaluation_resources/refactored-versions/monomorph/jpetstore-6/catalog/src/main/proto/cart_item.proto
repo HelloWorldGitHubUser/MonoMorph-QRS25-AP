@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.dto.generated.proto.cartitem;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.dto.generated.proto.cartitem";
+
+// Import statement for refactoredObjectID
+import "org/mybatis/jpetstore/domain/Item.proto";
+
+message CartItemDTO {
+    // Although serialVersionUID is static in Java, including it as requested
+    int64 serialVersionUID = 1;
+
+    // For Item reference, using refactoredObjectID as instructed
+    org.mybatis.jpetstore.domain.Item.refactoredObjectID item = 2;
+
+    int32 quantity = 3;
+    bool inStock = 4;
+
+    // Using string to represent BigDecimal for precision
+    string total = 5;
+}

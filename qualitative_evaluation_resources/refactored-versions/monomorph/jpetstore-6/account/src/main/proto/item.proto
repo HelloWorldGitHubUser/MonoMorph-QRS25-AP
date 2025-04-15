@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.id.generated.proto.item;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.id.generated.proto.item";
+
+import "shared.proto";
+
+service ItemService {
+    rpc createObject(CreateObjectRequest) returns (org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID);
+
+    // Get item ID
+    rpc getItemId(GetItemIdRequest) returns (GetItemIdResponse);
+
+    // Get list price
+    rpc getListPrice(GetListPriceRequest) returns (GetListPriceResponse);
+
+    // Set quantity
+    rpc setQuantity(SetQuantityRequest) returns (SetQuantityResponse);
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // Empty as we're using the default constructor
+}
+
+// Request and response for getItemId
+message GetItemIdRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message GetItemIdResponse {
+    string itemId = 1;
+}
+
+// Request and response for getListPrice
+message GetListPriceRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message GetListPriceResponse {
+    double listPrice = 1; // Using double to represent BigDecimal
+}
+
+// Request and response for setQuantity
+message SetQuantityRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    int32 quantity = 2;
+}
+
+message SetQuantityResponse {
+    // Empty response since setQuantity returns void
+}

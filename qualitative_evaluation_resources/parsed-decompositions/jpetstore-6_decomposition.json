@@ -1,0 +1,49 @@
+{
+    "name": "manual",
+    "app_name": "jpetstore-6",
+    "partitions": [
+        {
+            "name": "account",
+            "classes": [
+                "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+                "org.mybatis.jpetstore.domain.Account",
+                "org.mybatis.jpetstore.web.actions.AccountActionBean",
+                "org.mybatis.jpetstore.mapper.AccountMapper",
+                "org.mybatis.jpetstore.service.AccountService"
+            ]
+        },
+        {
+            "name": "order",
+            "classes": [
+                "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+                "org.mybatis.jpetstore.domain.Cart",
+                "org.mybatis.jpetstore.domain.CartItem",
+                "org.mybatis.jpetstore.domain.LineItem",
+                "org.mybatis.jpetstore.mapper.LineItemMapper",
+                "org.mybatis.jpetstore.domain.Order",
+                "org.mybatis.jpetstore.web.actions.OrderActionBean",
+                "org.mybatis.jpetstore.mapper.OrderMapper",
+                "org.mybatis.jpetstore.service.OrderService",
+                "org.mybatis.jpetstore.domain.Sequence",
+                "org.mybatis.jpetstore.mapper.SequenceMapper"
+            ]
+        },
+        {
+            "name": "catalog",
+            "classes": [
+                "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+                "org.mybatis.jpetstore.web.actions.CartActionBean",
+                "org.mybatis.jpetstore.mapper.CategoryMapper",
+                "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+                "org.mybatis.jpetstore.service.CatalogService",
+                "org.mybatis.jpetstore.domain.Category",
+                "org.mybatis.jpetstore.domain.Item",
+                "org.mybatis.jpetstore.mapper.ItemMapper",
+                "org.mybatis.jpetstore.domain.Product",
+                "org.mybatis.jpetstore.mapper.ProductMapper"
+            ]
+        }
+    ],
+    "language": "java",
+    "granularity": "class"
+}

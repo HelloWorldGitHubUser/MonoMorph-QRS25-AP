@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.dto.generated.proto.account;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.dto.generated.proto.account";
+
+message AccountDTO {
+    // Note: serialVersionUID is typically not included in DTOs as it's Java-specific,
+    // but including as instructed
+    int64 serialVersionUID = 1;
+    string username = 2;
+    string password = 3;
+    string email = 4;
+    string firstName = 5;
+    string lastName = 6;
+    string status = 7;
+    string address1 = 8;
+    string address2 = 9;
+    string city = 10;
+    string state = 11;
+    string zip = 12;
+    string country = 13;
+    string phone = 14;
+    string favouriteCategoryId = 15;
+    string languagePreference = 16;
+    bool listOption = 17;
+    bool bannerOption = 18;
+    string bannerName = 19;
+}
+
+// Add other messages and enums as needed

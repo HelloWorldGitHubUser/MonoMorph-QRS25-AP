@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package com.coveros.training.monomorph.id.generated.proto.checkutils;
+
+option java_multiple_files = true;
+option java_package = "com.coveros.training.monomorph.id.generated.proto.checkutils";
+
+import "shared.proto";
+
+service CheckUtilsService {
+    rpc createObject(CreateObjectRequest) returns (com.coveros.training.monomorph.id.shared.RefactoredObjectID);
+
+    // StringMustNotBeNullOrEmpty method
+    rpc StringMustNotBeNullOrEmpty(StringMustNotBeNullOrEmptyRequest) returns (StringMustNotBeNullOrEmptyResponse);
+
+    // IntParameterMustBePositive method
+    rpc IntParameterMustBePositive(IntParameterMustBePositiveRequest) returns (IntParameterMustBePositiveResponse);
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // Empty as CheckUtils has a private constructor with no arguments
+}
+
+// Request and Response for StringMustNotBeNullOrEmpty
+message StringMustNotBeNullOrEmptyRequest {
+    com.coveros.training.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    repeated string values = 2; // Represents java.lang.String... values parameter
+}
+
+message StringMustNotBeNullOrEmptyResponse {
+    // Empty response as the Java method returns void
+    // The implementation will throw exceptions if values are null or empty
+}
+
+// Request and Response for IntParameterMustBePositive
+message IntParameterMustBePositiveRequest {
+    com.coveros.training.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    int64 parameter = 2; // Represents the long parameter
+}
+
+message IntParameterMustBePositiveResponse {
+    // Empty response as the Java method returns void
+    // The implementation will throw exceptions if parameter <= 0
+}

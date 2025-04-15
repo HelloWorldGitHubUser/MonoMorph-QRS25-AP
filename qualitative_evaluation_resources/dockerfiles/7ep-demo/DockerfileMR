@@ -1,0 +1,38 @@
+# Build stage - using official Gradle image with Java 8
+FROM gradle:7.4.2-jdk11-jammy AS build
+
+# Set working directory
+WORKDIR /app
+
+# Copy build files for dependency resolution
+# COPY gradle.properties .
+COPY build.gradle settings.gradle* ./
+COPY gradle ./gradle
+COPY gradle* ./
+COPY src/main/webapp ./src/main/webapp
+
+# Download dependencies - this will be cached unless build files change
+RUN gradle dependencies --no-daemon
+
+# Copy source code
+COPY src ./src
+
+# Build the application (but don't run tests yet)
+RUN gradle build -x test --no-daemon
+
+# Test stage
+FROM build AS test
+
+# Create a helper script that makes it easy to run specific tests
+RUN echo '#!/bin/bash\n\
+if [ "$1" = "" ]; then\n\
+  # Run all tests by default\n\
+  gradle test --no-daemon\n\
+else\n\
+  # Run specific tests with the passed arguments\n\
+  gradle test --tests "$@" --no-daemon\n\
+fi' > /app/run-tests.sh && \
+chmod +x /app/run-tests.sh
+
+# Default to running all tests
+ENTRYPOINT ["/app/run-tests.sh"]

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package org.springframework.samples.petclinic.monomorph.dto.generated.proto.visit;
+
+option java_multiple_files = true;
+option java_package = "org.springframework.samples.petclinic.monomorph.dto.generated.proto.visit";
+
+message VisitDTO {
+    // From BaseEntity
+    int64 id = 1;
+
+    // From Visit class
+    string date = 2;  // ISO format YYYY-MM-DD for LocalDate
+    string description = 3;
+}

@@ -1,0 +1,6718 @@
+{
+  "invocations": [{
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "assertThat(\u003cunknown\u003e)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 54,
+        "column": 3
+      },
+      "end": {
+        "line": 54,
+        "column": 34
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "hasSize(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 54,
+        "column": 3
+      },
+      "end": {
+        "line": 54,
+        "column": 46
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "next()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 55,
+        "column": 43
+      },
+      "end": {
+        "line": 55,
+        "column": 80
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "toString()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 56,
+        "column": 14
+      },
+      "end": {
+        "line": 56,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "assertThat(\u003cunknown\u003e)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 56,
+        "column": 3
+      },
+      "end": {
+        "line": 56,
+        "column": 52
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 56,
+        "column": 3
+      },
+      "end": {
+        "line": 56,
+        "column": 76
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "assertThat(\u003cunknown\u003e)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 57,
+        "column": 3
+      },
+      "end": {
+        "line": 57,
+        "column": 36
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldNotValidateWhenFirstNameEmpty()",
+    "invokingObject": "org.springframework.samples.petclinic.model.ValidatorTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 57,
+        "column": 3
+      },
+      "end": {
+        "line": 57,
+        "column": 68
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "toString()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.Owner",
+    "invokedMethod": "append(java.lang.String,boolean)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 10
+      },
+      "end": {
+        "line": 148,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "toString()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.Owner",
+    "invokedMethod": "append(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 10
+      },
+      "end": {
+        "line": 149,
+        "column": 43
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "toString()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.Owner",
+    "invokedMethod": "append(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 10
+      },
+      "end": {
+        "line": 149,
+        "column": 84
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "toString()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.Owner",
+    "invokedMethod": "append(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 10
+      },
+      "end": {
+        "line": 150,
+        "column": 36
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "toString()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.Owner",
+    "invokedMethod": "append(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 10
+      },
+      "end": {
+        "line": 150,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "toString()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.Owner",
+    "invokedMethod": "append(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 10
+      },
+      "end": {
+        "line": 150,
+        "column": 98
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "toString()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.Owner",
+    "invokedMethod": "toString()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 10
+      },
+      "end": {
+        "line": 151,
+        "column": 15
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "processFindForm(int,org.springframework.samples.petclinic.owner.Owner,org.springframework.validation.BindingResult,org.springframework.ui.Model)",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerController",
+    "invokedMethod": "next()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 105,
+        "column": 12
+      },
+      "end": {
+        "line": 105,
+        "column": 42
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "setup()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "willReturn(org.springframework.data.domain.PageImpl)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 89,
+        "column": 3
+      },
+      "end": {
+        "line": 90,
+        "column": 65
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "setup()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "willReturn(org.springframework.data.domain.PageImpl)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 92,
+        "column": 3
+      },
+      "end": {
+        "line": 92,
+        "column": 110
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "setup()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "willReturn(org.springframework.samples.petclinic.owner.Owner)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 94,
+        "column": 3
+      },
+      "end": {
+        "line": 94,
+        "column": 64
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "get(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 19
+      },
+      "end": {
+        "line": 103,
+        "column": 36
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 49
+      },
+      "end": {
+        "line": 103,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 49
+      },
+      "end": {
+        "line": 103,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 3
+      },
+      "end": {
+        "line": 103,
+        "column": 64
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 76
+      },
+      "end": {
+        "line": 103,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeExists(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 76
+      },
+      "end": {
+        "line": 103,
+        "column": 107
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 3
+      },
+      "end": {
+        "line": 103,
+        "column": 108
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 16
+      },
+      "end": {
+        "line": 104,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 16
+      },
+      "end": {
+        "line": 104,
+        "column": 60
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 103,
+        "column": 3
+      },
+      "end": {
+        "line": 104,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "post(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 109,
+        "column": 19
+      },
+      "end": {
+        "line": 109,
+        "column": 37
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 109,
+        "column": 19
+      },
+      "end": {
+        "line": 109,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 109,
+        "column": 19
+      },
+      "end": {
+        "line": 109,
+        "column": 91
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 109,
+        "column": 19
+      },
+      "end": {
+        "line": 110,
+        "column": 43
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 109,
+        "column": 19
+      },
+      "end": {
+        "line": 110,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 109,
+        "column": 19
+      },
+      "end": {
+        "line": 110,
+        "column": 101
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 111,
+        "column": 16
+      },
+      "end": {
+        "line": 111,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "is3xxRedirection()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 111,
+        "column": 16
+      },
+      "end": {
+        "line": 111,
+        "column": 42
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 109,
+        "column": 3
+      },
+      "end": {
+        "line": 111,
+        "column": 44
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "post(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 117,
+        "column": 5
+      },
+      "end": {
+        "line": 117,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 117,
+        "column": 5
+      },
+      "end": {
+        "line": 117,
+        "column": 49
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 117,
+        "column": 5
+      },
+      "end": {
+        "line": 117,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 117,
+        "column": 5
+      },
+      "end": {
+        "line": 117,
+        "column": 101
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 118,
+        "column": 16
+      },
+      "end": {
+        "line": 118,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 118,
+        "column": 16
+      },
+      "end": {
+        "line": 118,
+        "column": 30
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 116,
+        "column": 3
+      },
+      "end": {
+        "line": 118,
+        "column": 31
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 118,
+        "column": 43
+      },
+      "end": {
+        "line": 118,
+        "column": 49
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasErrors(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 118,
+        "column": 43
+      },
+      "end": {
+        "line": 118,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 116,
+        "column": 3
+      },
+      "end": {
+        "line": 118,
+        "column": 78
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 119,
+        "column": 16
+      },
+      "end": {
+        "line": 119,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasFieldErrors(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 119,
+        "column": 16
+      },
+      "end": {
+        "line": 119,
+        "column": 66
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 116,
+        "column": 3
+      },
+      "end": {
+        "line": 119,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 120,
+        "column": 16
+      },
+      "end": {
+        "line": 120,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasFieldErrors(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 120,
+        "column": 16
+      },
+      "end": {
+        "line": 120,
+        "column": 68
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 116,
+        "column": 3
+      },
+      "end": {
+        "line": 120,
+        "column": 69
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 121,
+        "column": 16
+      },
+      "end": {
+        "line": 121,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 121,
+        "column": 16
+      },
+      "end": {
+        "line": 121,
+        "column": 60
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 116,
+        "column": 3
+      },
+      "end": {
+        "line": 121,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "get(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 19
+      },
+      "end": {
+        "line": 126,
+        "column": 37
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 50
+      },
+      "end": {
+        "line": 126,
+        "column": 57
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 50
+      },
+      "end": {
+        "line": 126,
+        "column": 64
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 3
+      },
+      "end": {
+        "line": 126,
+        "column": 65
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 77
+      },
+      "end": {
+        "line": 126,
+        "column": 83
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeExists(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 77
+      },
+      "end": {
+        "line": 126,
+        "column": 108
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 3
+      },
+      "end": {
+        "line": 126,
+        "column": 109
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 127,
+        "column": 16
+      },
+      "end": {
+        "line": 127,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 127,
+        "column": 16
+      },
+      "end": {
+        "line": 127,
+        "column": 47
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitFindForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 126,
+        "column": 3
+      },
+      "end": {
+        "line": 127,
+        "column": 49
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "thenReturn(org.springframework.data.domain.Page)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 133,
+        "column": 3
+      },
+      "end": {
+        "line": 133,
+        "column": 95
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "get(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 134,
+        "column": 19
+      },
+      "end": {
+        "line": 134,
+        "column": 39
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 134,
+        "column": 52
+      },
+      "end": {
+        "line": 134,
+        "column": 59
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 134,
+        "column": 52
+      },
+      "end": {
+        "line": 134,
+        "column": 66
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 134,
+        "column": 3
+      },
+      "end": {
+        "line": 134,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 134,
+        "column": 79
+      },
+      "end": {
+        "line": 134,
+        "column": 84
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 134,
+        "column": 79
+      },
+      "end": {
+        "line": 134,
+        "column": 110
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 134,
+        "column": 3
+      },
+      "end": {
+        "line": 134,
+        "column": 112
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "thenReturn(org.springframework.data.domain.Page)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 140,
+        "column": 3
+      },
+      "end": {
+        "line": 140,
+        "column": 98
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "get(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 19
+      },
+      "end": {
+        "line": 141,
+        "column": 39
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 19
+      },
+      "end": {
+        "line": 141,
+        "column": 69
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 82
+      },
+      "end": {
+        "line": 141,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "is3xxRedirection()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 82
+      },
+      "end": {
+        "line": 141,
+        "column": 108
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 3
+      },
+      "end": {
+        "line": 141,
+        "column": 109
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 142,
+        "column": 16
+      },
+      "end": {
+        "line": 142,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 142,
+        "column": 16
+      },
+      "end": {
+        "line": 142,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 3
+      },
+      "end": {
+        "line": 142,
+        "column": 65
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "thenReturn(org.springframework.data.domain.Page)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 148,
+        "column": 3
+      },
+      "end": {
+        "line": 148,
+        "column": 105
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "get(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 19
+      },
+      "end": {
+        "line": 149,
+        "column": 39
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 19
+      },
+      "end": {
+        "line": 149,
+        "column": 76
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 89
+      },
+      "end": {
+        "line": 149,
+        "column": 96
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 89
+      },
+      "end": {
+        "line": 149,
+        "column": 103
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 3
+      },
+      "end": {
+        "line": 149,
+        "column": 104
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 150,
+        "column": 16
+      },
+      "end": {
+        "line": 150,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasFieldErrors(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 150,
+        "column": 16
+      },
+      "end": {
+        "line": 150,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 3
+      },
+      "end": {
+        "line": 150,
+        "column": 68
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 151,
+        "column": 16
+      },
+      "end": {
+        "line": 151,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasFieldErrorCode(java.lang.String,java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 151,
+        "column": 16
+      },
+      "end": {
+        "line": 151,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 3
+      },
+      "end": {
+        "line": 151,
+        "column": 83
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 152,
+        "column": 16
+      },
+      "end": {
+        "line": 152,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 152,
+        "column": 16
+      },
+      "end": {
+        "line": 152,
+        "column": 47
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessFindFormNoOwnersFound()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 149,
+        "column": 3
+      },
+      "end": {
+        "line": 152,
+        "column": 49
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "get(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 19
+      },
+      "end": {
+        "line": 158,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 75
+      },
+      "end": {
+        "line": 158,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 75
+      },
+      "end": {
+        "line": 158,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 158,
+        "column": 90
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 159,
+        "column": 16
+      },
+      "end": {
+        "line": 159,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeExists(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 159,
+        "column": 16
+      },
+      "end": {
+        "line": 159,
+        "column": 47
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 159,
+        "column": 48
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 160,
+        "column": 16
+      },
+      "end": {
+        "line": 160,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 160,
+        "column": 16
+      },
+      "end": {
+        "line": 160,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 160,
+        "column": 83
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 161,
+        "column": 16
+      },
+      "end": {
+        "line": 161,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 161,
+        "column": 16
+      },
+      "end": {
+        "line": 161,
+        "column": 81
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 161,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 162,
+        "column": 16
+      },
+      "end": {
+        "line": 162,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 162,
+        "column": 16
+      },
+      "end": {
+        "line": 162,
+        "column": 91
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 162,
+        "column": 92
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 163,
+        "column": 16
+      },
+      "end": {
+        "line": 163,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 163,
+        "column": 16
+      },
+      "end": {
+        "line": 163,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 163,
+        "column": 78
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 164,
+        "column": 16
+      },
+      "end": {
+        "line": 164,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 164,
+        "column": 16
+      },
+      "end": {
+        "line": 164,
+        "column": 85
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 164,
+        "column": 86
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 165,
+        "column": 16
+      },
+      "end": {
+        "line": 165,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 165,
+        "column": 16
+      },
+      "end": {
+        "line": 165,
+        "column": 60
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateOwnerForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 165,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "post(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 19
+      },
+      "end": {
+        "line": 170,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 19
+      },
+      "end": {
+        "line": 170,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 19
+      },
+      "end": {
+        "line": 171,
+        "column": 32
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 19
+      },
+      "end": {
+        "line": 171,
+        "column": 71
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 19
+      },
+      "end": {
+        "line": 171,
+        "column": 95
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 19
+      },
+      "end": {
+        "line": 172,
+        "column": 38
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 172,
+        "column": 51
+      },
+      "end": {
+        "line": 172,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "is3xxRedirection()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 172,
+        "column": 51
+      },
+      "end": {
+        "line": 172,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 3
+      },
+      "end": {
+        "line": 172,
+        "column": 78
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 173,
+        "column": 16
+      },
+      "end": {
+        "line": 173,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 173,
+        "column": 16
+      },
+      "end": {
+        "line": 173,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 170,
+        "column": 3
+      },
+      "end": {
+        "line": 173,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormUnchangedSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "post(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 178,
+        "column": 19
+      },
+      "end": {
+        "line": 178,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormUnchangedSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 178,
+        "column": 76
+      },
+      "end": {
+        "line": 178,
+        "column": 83
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormUnchangedSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "is3xxRedirection()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 178,
+        "column": 76
+      },
+      "end": {
+        "line": 178,
+        "column": 102
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormUnchangedSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 178,
+        "column": 3
+      },
+      "end": {
+        "line": 178,
+        "column": 103
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormUnchangedSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 179,
+        "column": 16
+      },
+      "end": {
+        "line": 179,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormUnchangedSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 179,
+        "column": 16
+      },
+      "end": {
+        "line": 179,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormUnchangedSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 178,
+        "column": 3
+      },
+      "end": {
+        "line": 179,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "post(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 19
+      },
+      "end": {
+        "line": 184,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 19
+      },
+      "end": {
+        "line": 184,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 19
+      },
+      "end": {
+        "line": 185,
+        "column": 32
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 19
+      },
+      "end": {
+        "line": 185,
+        "column": 53
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 19
+      },
+      "end": {
+        "line": 185,
+        "column": 76
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 185,
+        "column": 89
+      },
+      "end": {
+        "line": 185,
+        "column": 96
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 185,
+        "column": 89
+      },
+      "end": {
+        "line": 185,
+        "column": 103
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 3
+      },
+      "end": {
+        "line": 185,
+        "column": 104
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 186,
+        "column": 16
+      },
+      "end": {
+        "line": 186,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasErrors(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 186,
+        "column": 16
+      },
+      "end": {
+        "line": 186,
+        "column": 50
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 3
+      },
+      "end": {
+        "line": 186,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 187,
+        "column": 16
+      },
+      "end": {
+        "line": 187,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasFieldErrors(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 187,
+        "column": 16
+      },
+      "end": {
+        "line": 187,
+        "column": 66
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 3
+      },
+      "end": {
+        "line": 187,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 188,
+        "column": 16
+      },
+      "end": {
+        "line": 188,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attributeHasFieldErrors(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 188,
+        "column": 16
+      },
+      "end": {
+        "line": 188,
+        "column": 68
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 3
+      },
+      "end": {
+        "line": 188,
+        "column": 69
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 189,
+        "column": 16
+      },
+      "end": {
+        "line": 189,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 189,
+        "column": 16
+      },
+      "end": {
+        "line": 189,
+        "column": 60
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateOwnerFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 184,
+        "column": 3
+      },
+      "end": {
+        "line": 189,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "get(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 19
+      },
+      "end": {
+        "line": 194,
+        "column": 57
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 70
+      },
+      "end": {
+        "line": 194,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 70
+      },
+      "end": {
+        "line": 194,
+        "column": 84
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 194,
+        "column": 85
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 195,
+        "column": 16
+      },
+      "end": {
+        "line": 195,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 195,
+        "column": 16
+      },
+      "end": {
+        "line": 195,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 195,
+        "column": 83
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 196,
+        "column": 16
+      },
+      "end": {
+        "line": 196,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 196,
+        "column": 16
+      },
+      "end": {
+        "line": 196,
+        "column": 81
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 196,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 197,
+        "column": 16
+      },
+      "end": {
+        "line": 197,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 197,
+        "column": 16
+      },
+      "end": {
+        "line": 197,
+        "column": 91
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 197,
+        "column": 92
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 198,
+        "column": 16
+      },
+      "end": {
+        "line": 198,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 198,
+        "column": 16
+      },
+      "end": {
+        "line": 198,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 198,
+        "column": 78
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 199,
+        "column": 16
+      },
+      "end": {
+        "line": 199,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 199,
+        "column": 16
+      },
+      "end": {
+        "line": 199,
+        "column": 85
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 199,
+        "column": 86
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 200,
+        "column": 16
+      },
+      "end": {
+        "line": 200,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 200,
+        "column": 16
+      },
+      "end": {
+        "line": 200,
+        "column": 76
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 200,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 201,
+        "column": 16
+      },
+      "end": {
+        "line": 201,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "attribute(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 201,
+        "column": 16
+      },
+      "end": {
+        "line": 218,
+        "column": 7
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 218,
+        "column": 8
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 218,
+        "column": 20
+      },
+      "end": {
+        "line": 218,
+        "column": 25
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 218,
+        "column": 20
+      },
+      "end": {
+        "line": 218,
+        "column": 53
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 194,
+        "column": 3
+      },
+      "end": {
+        "line": 218,
+        "column": 55
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "setup()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "willReturn()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 58,
+        "column": 3
+      },
+      "end": {
+        "line": 58,
+        "column": 72
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "setup()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "willReturn(org.springframework.samples.petclinic.owner.Owner)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 63,
+        "column": 3
+      },
+      "end": {
+        "line": 63,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "get(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 19
+      },
+      "end": {
+        "line": 68,
+        "column": 66
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 79
+      },
+      "end": {
+        "line": 68,
+        "column": 86
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 79
+      },
+      "end": {
+        "line": 68,
+        "column": 93
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 3
+      },
+      "end": {
+        "line": 68,
+        "column": 94
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 69,
+        "column": 16
+      },
+      "end": {
+        "line": 69,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 69,
+        "column": 16
+      },
+      "end": {
+        "line": 69,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 3
+      },
+      "end": {
+        "line": 69,
+        "column": 57
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 69,
+        "column": 69
+      },
+      "end": {
+        "line": 69,
+        "column": 75
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeExists(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 69,
+        "column": 69
+      },
+      "end": {
+        "line": 69,
+        "column": 98
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitCreationForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 3
+      },
+      "end": {
+        "line": 69,
+        "column": 100
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "post(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 74,
+        "column": 19
+      },
+      "end": {
+        "line": 74,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 74,
+        "column": 19
+      },
+      "end": {
+        "line": 74,
+        "column": 90
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 74,
+        "column": 19
+      },
+      "end": {
+        "line": 75,
+        "column": 29
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 74,
+        "column": 19
+      },
+      "end": {
+        "line": 75,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 75,
+        "column": 75
+      },
+      "end": {
+        "line": 75,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "is3xxRedirection()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 75,
+        "column": 75
+      },
+      "end": {
+        "line": 75,
+        "column": 101
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 74,
+        "column": 3
+      },
+      "end": {
+        "line": 75,
+        "column": 102
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 76,
+        "column": 16
+      },
+      "end": {
+        "line": 76,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 76,
+        "column": 16
+      },
+      "end": {
+        "line": 76,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 74,
+        "column": 3
+      },
+      "end": {
+        "line": 76,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "post(java.lang.String,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 19
+      },
+      "end": {
+        "line": 81,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 19
+      },
+      "end": {
+        "line": 81,
+        "column": 90
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 19
+      },
+      "end": {
+        "line": 82,
+        "column": 17
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 82,
+        "column": 30
+      },
+      "end": {
+        "line": 82,
+        "column": 36
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeHasNoErrors(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 82,
+        "column": 30
+      },
+      "end": {
+        "line": 82,
+        "column": 66
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 82,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 83,
+        "column": 16
+      },
+      "end": {
+        "line": 83,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeHasErrors(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 83,
+        "column": 16
+      },
+      "end": {
+        "line": 83,
+        "column": 48
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 83,
+        "column": 49
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 83,
+        "column": 61
+      },
+      "end": {
+        "line": 83,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeHasFieldErrors(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 83,
+        "column": 61
+      },
+      "end": {
+        "line": 83,
+        "column": 106
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 83,
+        "column": 107
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 84,
+        "column": 16
+      },
+      "end": {
+        "line": 84,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeHasFieldErrorCode(java.lang.String,java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 84,
+        "column": 16
+      },
+      "end": {
+        "line": 84,
+        "column": 76
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 84,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 84,
+        "column": 89
+      },
+      "end": {
+        "line": 84,
+        "column": 96
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 84,
+        "column": 89
+      },
+      "end": {
+        "line": 84,
+        "column": 103
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 84,
+        "column": 104
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 85,
+        "column": 16
+      },
+      "end": {
+        "line": 85,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 85,
+        "column": 16
+      },
+      "end": {
+        "line": 85,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessCreationFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 85,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "get(java.lang.String,int,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 19
+      },
+      "end": {
+        "line": 90,
+        "column": 88
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 91,
+        "column": 16
+      },
+      "end": {
+        "line": 91,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 91,
+        "column": 16
+      },
+      "end": {
+        "line": 91,
+        "column": 30
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 3
+      },
+      "end": {
+        "line": 91,
+        "column": 31
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 91,
+        "column": 43
+      },
+      "end": {
+        "line": 91,
+        "column": 49
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeExists(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 91,
+        "column": 43
+      },
+      "end": {
+        "line": 91,
+        "column": 72
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 3
+      },
+      "end": {
+        "line": 91,
+        "column": 73
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 92,
+        "column": 16
+      },
+      "end": {
+        "line": 92,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 92,
+        "column": 16
+      },
+      "end": {
+        "line": 92,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitUpdateForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 3
+      },
+      "end": {
+        "line": 92,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "post(java.lang.String,int,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 19
+      },
+      "end": {
+        "line": 97,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 19
+      },
+      "end": {
+        "line": 97,
+        "column": 112
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 19
+      },
+      "end": {
+        "line": 98,
+        "column": 29
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 19
+      },
+      "end": {
+        "line": 98,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 98,
+        "column": 75
+      },
+      "end": {
+        "line": 98,
+        "column": 82
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "is3xxRedirection()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 98,
+        "column": 75
+      },
+      "end": {
+        "line": 98,
+        "column": 101
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 3
+      },
+      "end": {
+        "line": 98,
+        "column": 102
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 99,
+        "column": 16
+      },
+      "end": {
+        "line": 99,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 99,
+        "column": 16
+      },
+      "end": {
+        "line": 99,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 3
+      },
+      "end": {
+        "line": 99,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "post(java.lang.String,int,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 19
+      },
+      "end": {
+        "line": 104,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 19
+      },
+      "end": {
+        "line": 104,
+        "column": 112
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 19
+      },
+      "end": {
+        "line": 105,
+        "column": 37
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 105,
+        "column": 50
+      },
+      "end": {
+        "line": 105,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeHasNoErrors(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 105,
+        "column": 50
+      },
+      "end": {
+        "line": 105,
+        "column": 86
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 3
+      },
+      "end": {
+        "line": 105,
+        "column": 87
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 106,
+        "column": 16
+      },
+      "end": {
+        "line": 106,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "attributeHasErrors(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 106,
+        "column": 16
+      },
+      "end": {
+        "line": 106,
+        "column": 48
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 3
+      },
+      "end": {
+        "line": 106,
+        "column": 49
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 106,
+        "column": 61
+      },
+      "end": {
+        "line": 106,
+        "column": 68
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 106,
+        "column": 61
+      },
+      "end": {
+        "line": 106,
+        "column": 75
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 3
+      },
+      "end": {
+        "line": 106,
+        "column": 76
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 107,
+        "column": 16
+      },
+      "end": {
+        "line": 107,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 107,
+        "column": 16
+      },
+      "end": {
+        "line": 107,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessUpdateFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 104,
+        "column": 3
+      },
+      "end": {
+        "line": 107,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testPrint()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 58,
+        "column": 3
+      },
+      "end": {
+        "line": 58,
+        "column": 25
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testPrint()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 58,
+        "column": 3
+      },
+      "end": {
+        "line": 58,
+        "column": 47
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldParse()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+    "invokedMethod": "willReturn(java.util.List)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 63,
+        "column": 3
+      },
+      "end": {
+        "line": 63,
+        "column": 61
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldParse()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 65,
+        "column": 3
+      },
+      "end": {
+        "line": 65,
+        "column": 31
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldParse()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 65,
+        "column": 3
+      },
+      "end": {
+        "line": 65,
+        "column": 50
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldThrowParseException()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+    "invokedMethod": "willReturn(java.util.List)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 70,
+        "column": 3
+      },
+      "end": {
+        "line": 70,
+        "column": 61
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "init()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "willReturn(org.springframework.samples.petclinic.owner.Owner)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 57,
+        "column": 3
+      },
+      "end": {
+        "line": 57,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitNewVisitForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "get(java.lang.String,int,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 62,
+        "column": 19
+      },
+      "end": {
+        "line": 62,
+        "column": 94
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitNewVisitForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 63,
+        "column": 16
+      },
+      "end": {
+        "line": 63,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitNewVisitForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 63,
+        "column": 16
+      },
+      "end": {
+        "line": 63,
+        "column": 30
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitNewVisitForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 62,
+        "column": 3
+      },
+      "end": {
+        "line": 63,
+        "column": 31
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitNewVisitForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 63,
+        "column": 43
+      },
+      "end": {
+        "line": 63,
+        "column": 48
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitNewVisitForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 63,
+        "column": 43
+      },
+      "end": {
+        "line": 63,
+        "column": 85
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testInitNewVisitForm()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 62,
+        "column": 3
+      },
+      "end": {
+        "line": 63,
+        "column": 87
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "post(java.lang.String,int,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 19
+      },
+      "end": {
+        "line": 68,
+        "column": 95
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 19
+      },
+      "end": {
+        "line": 69,
+        "column": 28
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 19
+      },
+      "end": {
+        "line": 69,
+        "column": 70
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 70,
+        "column": 16
+      },
+      "end": {
+        "line": 70,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "is3xxRedirection()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 70,
+        "column": 16
+      },
+      "end": {
+        "line": 70,
+        "column": 42
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 3
+      },
+      "end": {
+        "line": 70,
+        "column": 43
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 70,
+        "column": 55
+      },
+      "end": {
+        "line": 70,
+        "column": 60
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 70,
+        "column": 55
+      },
+      "end": {
+        "line": 70,
+        "column": 95
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormSuccess()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 68,
+        "column": 3
+      },
+      "end": {
+        "line": 70,
+        "column": 97
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "post(java.lang.String,int,int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 76,
+        "column": 5
+      },
+      "end": {
+        "line": 76,
+        "column": 81
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "param(java.lang.String,java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 76,
+        "column": 5
+      },
+      "end": {
+        "line": 76,
+        "column": 105
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 77,
+        "column": 16
+      },
+      "end": {
+        "line": 77,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "attributeHasErrors(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 77,
+        "column": 16
+      },
+      "end": {
+        "line": 77,
+        "column": 50
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 75,
+        "column": 3
+      },
+      "end": {
+        "line": 77,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 77,
+        "column": 63
+      },
+      "end": {
+        "line": 77,
+        "column": 70
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 77,
+        "column": 63
+      },
+      "end": {
+        "line": 77,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 75,
+        "column": 3
+      },
+      "end": {
+        "line": 77,
+        "column": 78
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 78,
+        "column": 16
+      },
+      "end": {
+        "line": 78,
+        "column": 21
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 78,
+        "column": 16
+      },
+      "end": {
+        "line": 78,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testProcessNewVisitFormHasErrors()",
+    "invokingObject": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 75,
+        "column": 3
+      },
+      "end": {
+        "line": 78,
+        "column": 60
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindOwnersByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(\u003cunknown\u003e)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 87,
+        "column": 3
+      },
+      "end": {
+        "line": 87,
+        "column": 20
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindOwnersByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "hasSize(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 87,
+        "column": 3
+      },
+      "end": {
+        "line": 87,
+        "column": 32
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindOwnersByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(\u003cunknown\u003e)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 3
+      },
+      "end": {
+        "line": 90,
+        "column": 20
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindOwnersByLastName()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEmpty()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 3
+      },
+      "end": {
+        "line": 90,
+        "column": 31
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 96,
+        "column": 3
+      },
+      "end": {
+        "line": 96,
+        "column": 33
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "startsWith(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 96,
+        "column": 3
+      },
+      "end": {
+        "line": 96,
+        "column": 57
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.util.List)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 3
+      },
+      "end": {
+        "line": 97,
+        "column": 29
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "hasSize(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 97,
+        "column": 3
+      },
+      "end": {
+        "line": 97,
+        "column": 41
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(org.springframework.samples.petclinic.owner.PetType)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 98,
+        "column": 3
+      },
+      "end": {
+        "line": 98,
+        "column": 46
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isNotNull()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 98,
+        "column": 3
+      },
+      "end": {
+        "line": 98,
+        "column": 59
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 99,
+        "column": 3
+      },
+      "end": {
+        "line": 99,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindSingleOwnerWithPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 99,
+        "column": 3
+      },
+      "end": {
+        "line": 99,
+        "column": 74
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(long)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 115,
+        "column": 3
+      },
+      "end": {
+        "line": 115,
+        "column": 39
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isNotEqualTo(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 115,
+        "column": 3
+      },
+      "end": {
+        "line": 115,
+        "column": 56
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(\u003cunknown\u003e)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 118,
+        "column": 3
+      },
+      "end": {
+        "line": 118,
+        "column": 39
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 118,
+        "column": 3
+      },
+      "end": {
+        "line": 118,
+        "column": 61
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldUpdateOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 133,
+        "column": 3
+      },
+      "end": {
+        "line": 133,
+        "column": 33
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldUpdateOwner()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 133,
+        "column": 3
+      },
+      "end": {
+        "line": 133,
+        "column": 57
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindAllPetTypes()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 3
+      },
+      "end": {
+        "line": 141,
+        "column": 32
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindAllPetTypes()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 141,
+        "column": 3
+      },
+      "end": {
+        "line": 141,
+        "column": 50
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindAllPetTypes()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 143,
+        "column": 3
+      },
+      "end": {
+        "line": 143,
+        "column": 32
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindAllPetTypes()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 143,
+        "column": 3
+      },
+      "end": {
+        "line": 143,
+        "column": 52
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertPetIntoDatabaseAndGenerateId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 158,
+        "column": 37
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertPetIntoDatabaseAndGenerateId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 158,
+        "column": 3
+      },
+      "end": {
+        "line": 158,
+        "column": 59
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertPetIntoDatabaseAndGenerateId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 163,
+        "column": 3
+      },
+      "end": {
+        "line": 163,
+        "column": 37
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertPetIntoDatabaseAndGenerateId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 163,
+        "column": 3
+      },
+      "end": {
+        "line": 163,
+        "column": 59
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertPetIntoDatabaseAndGenerateId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.Integer)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 166,
+        "column": 3
+      },
+      "end": {
+        "line": 166,
+        "column": 25
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldInsertPetIntoDatabaseAndGenerateId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isNotNull()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 166,
+        "column": 3
+      },
+      "end": {
+        "line": 166,
+        "column": 38
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldUpdatePetName()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 182,
+        "column": 3
+      },
+      "end": {
+        "line": 182,
+        "column": 28
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldUpdatePetName()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 182,
+        "column": 3
+      },
+      "end": {
+        "line": 182,
+        "column": 48
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 190,
+        "column": 3
+      },
+      "end": {
+        "line": 190,
+        "column": 31
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 190,
+        "column": 3
+      },
+      "end": {
+        "line": 190,
+        "column": 53
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 191,
+        "column": 3
+      },
+      "end": {
+        "line": 191,
+        "column": 38
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 191,
+        "column": 3
+      },
+      "end": {
+        "line": 191,
+        "column": 52
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 192,
+        "column": 3
+      },
+      "end": {
+        "line": 192,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 192,
+        "column": 3
+      },
+      "end": {
+        "line": 192,
+        "column": 75
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 193,
+        "column": 3
+      },
+      "end": {
+        "line": 193,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVets()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 193,
+        "column": 3
+      },
+      "end": {
+        "line": 193,
+        "column": 73
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldAddNewVisitForPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.util.Collection)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 210,
+        "column": 3
+      },
+      "end": {
+        "line": 210,
+        "column": 30
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldAddNewVisitForPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "hasSize(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 210,
+        "column": 3
+      },
+      "end": {
+        "line": 211,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldAddNewVisitForPet()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "allMatch()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 210,
+        "column": 3
+      },
+      "end": {
+        "line": 212,
+        "column": 46
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVisitsByPetId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "assertThat(java.util.Collection)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 221,
+        "column": 3
+      },
+      "end": {
+        "line": 221,
+        "column": 20
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVisitsByPetId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "hasSize(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 221,
+        "column": 3
+      },
+      "end": {
+        "line": 222,
+        "column": 15
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVisitsByPetId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "element(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 221,
+        "column": 3
+      },
+      "end": {
+        "line": 223,
+        "column": 15
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVisitsByPetId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "extracting()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 221,
+        "column": 3
+      },
+      "end": {
+        "line": 223,
+        "column": 42
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "shouldFindVisitsByPetId()",
+    "invokingObject": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+    "invokedMethod": "isNotNull()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 221,
+        "column": 3
+      },
+      "end": {
+        "line": 223,
+        "column": 55
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "petclinicCacheConfigurationCustomizer()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CacheConfiguration",
+    "invokedMethod": "cacheConfiguration()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 37,
+        "column": 39
+      },
+      "end": {
+        "line": 37,
+        "column": 58
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "get(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 43,
+        "column": 19
+      },
+      "end": {
+        "line": 43,
+        "column": 30
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 43,
+        "column": 43
+      },
+      "end": {
+        "line": 43,
+        "column": 48
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 43,
+        "column": 43
+      },
+      "end": {
+        "line": 43,
+        "column": 66
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 43,
+        "column": 3
+      },
+      "end": {
+        "line": 43,
+        "column": 67
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 44,
+        "column": 16
+      },
+      "end": {
+        "line": 44,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "attributeExists(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 44,
+        "column": 16
+      },
+      "end": {
+        "line": 44,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 43,
+        "column": 3
+      },
+      "end": {
+        "line": 44,
+        "column": 52
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "forwardedUrl(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 44,
+        "column": 64
+      },
+      "end": {
+        "line": 44,
+        "column": 88
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 43,
+        "column": 3
+      },
+      "end": {
+        "line": 44,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 45,
+        "column": 16
+      },
+      "end": {
+        "line": 45,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 45,
+        "column": 16
+      },
+      "end": {
+        "line": 45,
+        "column": 30
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testTriggerException()",
+    "invokingObject": "org.springframework.samples.petclinic.system.CrashControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 43,
+        "column": 3
+      },
+      "end": {
+        "line": 45,
+        "column": 32
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "setup()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "willReturn()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 72,
+        "column": 3
+      },
+      "end": {
+        "line": 72,
+        "column": 78
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "setup()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "willReturn(org.springframework.data.domain.PageImpl)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 73,
+        "column": 3
+      },
+      "end": {
+        "line": 74,
+        "column": 73
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 78
+      },
+      "end": {
+        "line": 81,
+        "column": 85
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 78
+      },
+      "end": {
+        "line": 81,
+        "column": 92
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 81,
+        "column": 93
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "model()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 82,
+        "column": 16
+      },
+      "end": {
+        "line": 82,
+        "column": 22
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "attributeExists(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 82,
+        "column": 16
+      },
+      "end": {
+        "line": 82,
+        "column": 50
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 82,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "view()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 82,
+        "column": 63
+      },
+      "end": {
+        "line": 82,
+        "column": 68
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "name(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 82,
+        "column": 63
+      },
+      "end": {
+        "line": 82,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowVetListHtml()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 81,
+        "column": 3
+      },
+      "end": {
+        "line": 82,
+        "column": 91
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "get(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 88,
+        "column": 43
+      },
+      "end": {
+        "line": 88,
+        "column": 54
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "accept()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 88,
+        "column": 43
+      },
+      "end": {
+        "line": 88,
+        "column": 89
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "status()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 89,
+        "column": 16
+      },
+      "end": {
+        "line": 89,
+        "column": 23
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "isOk()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 89,
+        "column": 16
+      },
+      "end": {
+        "line": 89,
+        "column": 30
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 88,
+        "column": 27
+      },
+      "end": {
+        "line": 89,
+        "column": 31
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "content()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 21
+      },
+      "end": {
+        "line": 90,
+        "column": 29
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "contentType()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 21
+      },
+      "end": {
+        "line": 90,
+        "column": 69
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "jsonPath(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 91,
+        "column": 16
+      },
+      "end": {
+        "line": 91,
+        "column": 42
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "value(int)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 91,
+        "column": 16
+      },
+      "end": {
+        "line": 91,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testShowResourcesVetList()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetControllerTests",
+    "invokedMethod": "andExpect()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 90,
+        "column": 3
+      },
+      "end": {
+        "line": 91,
+        "column": 53
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testSerialization()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 35,
+        "column": 3
+      },
+      "end": {
+        "line": 35,
+        "column": 34
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testSerialization()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 35,
+        "column": 3
+      },
+      "end": {
+        "line": 35,
+        "column": 65
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testSerialization()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetTests",
+    "invokedMethod": "assertThat(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 36,
+        "column": 3
+      },
+      "end": {
+        "line": 36,
+        "column": 33
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testSerialization()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetTests",
+    "invokedMethod": "isEqualTo(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 36,
+        "column": 3
+      },
+      "end": {
+        "line": 36,
+        "column": 63
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testSerialization()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetTests",
+    "invokedMethod": "assertThat(java.lang.Integer)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 37,
+        "column": 3
+      },
+      "end": {
+        "line": 37,
+        "column": 27
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testSerialization()",
+    "invokingObject": "org.springframework.samples.petclinic.vet.VetTests",
+    "invokedMethod": "isEqualTo(java.lang.Integer)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 37,
+        "column": 3
+      },
+      "end": {
+        "line": 37,
+        "column": 51
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testOwnerDetails()",
+    "invokingObject": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+    "invokedMethod": "build()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 53,
+        "column": 27
+      },
+      "end": {
+        "line": 53,
+        "column": 77
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testOwnerDetails()",
+    "invokingObject": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+    "invokedMethod": "build()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 54,
+        "column": 53
+      },
+      "end": {
+        "line": 54,
+        "column": 90
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testOwnerDetails()",
+    "invokingObject": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+    "invokedMethod": "assertThat(\u003cunknown\u003e)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 55,
+        "column": 3
+      },
+      "end": {
+        "line": 55,
+        "column": 36
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "testOwnerDetails()",
+    "invokingObject": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+    "invokedMethod": "isEqualTo()",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 55,
+        "column": 3
+      },
+      "end": {
+        "line": 55,
+        "column": 62
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "registerHints(org.springframework.aot.hint.RuntimeHints,java.lang.ClassLoader)",
+    "invokingObject": "org.springframework.samples.petclinic.PetClinicRuntimeHints",
+    "invokedMethod": "registerPattern(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 26,
+        "column": 3
+      },
+      "end": {
+        "line": 26,
+        "column": 44
+      }
+    }
+  }, {
+    "local": false,
+    "invokingMethod": "registerHints(org.springframework.aot.hint.RuntimeHints,java.lang.ClassLoader)",
+    "invokingObject": "org.springframework.samples.petclinic.PetClinicRuntimeHints",
+    "invokedMethod": "registerPattern(java.lang.String)",
+    "invokedObject": "$$UNKNOWN$$",
+    "appName": "spring-petclinic",
+    "span": {
+      "start": {
+        "line": 27,
+        "column": 3
+      },
+      "end": {
+        "line": 27,
+        "column": 68
+      }
+    }
+  }]
+}

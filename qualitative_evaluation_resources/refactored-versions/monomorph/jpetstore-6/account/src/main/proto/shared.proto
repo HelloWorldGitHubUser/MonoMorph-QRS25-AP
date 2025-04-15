@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.id.shared;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.id.shared";
+
+message RefactoredObjectID {
+    string instanceID = 1;
+    string classID = 2;
+    string serviceID = 3;
+}

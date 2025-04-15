@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.id.generated.proto.itemmapper;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.id.generated.proto.itemmapper";
+
+import "shared.proto";
+
+service ItemMapperService {
+    rpc createObject(CreateObjectRequest) returns (org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID);
+    rpc getInventoryQuantity(GetInventoryQuantityRequest) returns (GetInventoryQuantityResponse);
+    rpc updateInventoryQuantity(UpdateInventoryQuantityRequest) returns (UpdateInventoryQuantityResponse);
+    rpc getItem(GetItemRequest) returns (GetItemResponse);
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // ItemMapper is an interface without constructor arguments
+}
+
+message GetInventoryQuantityRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    string itemId = 2;
+}
+
+message GetInventoryQuantityResponse {
+    int32 quantity = 1;
+}
+
+message UpdateInventoryQuantityRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    map<string, MapValue> params = 2;
+}
+
+message MapValue {
+    oneof value {
+        string string_value = 1;
+        int32 int_value = 2;
+        bool bool_value = 3;
+        double double_value = 4;
+    }
+}
+
+message UpdateInventoryQuantityResponse {
+    // Empty response as the original method returns void
+}
+
+message GetItemRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    string itemId = 2;
+}
+
+message GetItemResponse {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID item = 1;
+}

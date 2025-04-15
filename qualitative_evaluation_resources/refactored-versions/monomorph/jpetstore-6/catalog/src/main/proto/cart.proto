@@ -1,0 +1,75 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.id.generated.proto.cart;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.id.generated.proto.cart";
+
+import "shared.proto";
+import "cart_item.proto";
+
+service CartService {
+    rpc createObject(CreateObjectRequest) returns (org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID);
+    rpc containsItemId(ContainsItemIdRequest) returns (ContainsItemIdResponse);
+    rpc incrementQuantityByItemId(IncrementQuantityByItemIdRequest) returns (EmptyResponse);
+    rpc addItem(AddItemRequest) returns (EmptyResponse);
+    rpc getAllCartItems(GetAllCartItemsRequest) returns (GetAllCartItemsResponse);
+    rpc removeItemById(RemoveItemByIdRequest) returns (RemoveItemByIdResponse);
+    rpc setQuantityByItemId(SetQuantityByItemIdRequest) returns (EmptyResponse);
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // Cart has a default constructor, so no arguments needed
+}
+
+message ContainsItemIdRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    string itemId = 2;
+}
+
+message ContainsItemIdResponse {
+    bool contains = 1;
+}
+
+message IncrementQuantityByItemIdRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    string itemId = 2;
+}
+
+message EmptyResponse {
+    // Empty response for void methods
+}
+
+message AddItemRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID item = 2;
+    bool isInStock = 3;
+}
+
+message GetAllCartItemsRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message GetAllCartItemsResponse {
+    repeated org.mybatis.jpetstore.monomorph.dto.generated.proto.cartitem.CartItemDTO cartItems = 1;
+}
+
+message RemoveItemByIdRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    string itemId = 2;
+}
+
+message RemoveItemByIdResponse {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID item = 1;
+}
+
+message SetQuantityByItemIdRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    string itemId = 2;
+    int32 quantity = 3;
+}

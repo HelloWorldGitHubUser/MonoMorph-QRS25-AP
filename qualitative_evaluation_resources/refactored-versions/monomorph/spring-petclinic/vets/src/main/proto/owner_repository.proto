@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+package org.springframework.samples.petclinic.monomorph.id.generated.proto.ownerrepository;
+
+option java_multiple_files = true;
+option java_package = "org.springframework.samples.petclinic.monomorph.id.generated.proto.ownerrepository";
+
+import "shared.proto";
+import "owner.proto";
+import "pet_type.proto";
+
+service OwnerRepositoryService {
+    rpc createObject(CreateObjectRequest) returns (org.springframework.samples.petclinic.monomorph.id.shared.RefactoredObjectID);
+
+    // Expose the findPetTypes method
+    rpc findPetTypes(FindPetTypesRequest) returns (FindPetTypesResponse);
+
+    // Expose the save method
+    rpc save(SaveRequest) returns (SaveResponse);
+
+    // Expose the findById method
+    rpc findById(FindByIdRequest) returns (FindByIdResponse);
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // Empty since OwnerRepository is an interface that extends Spring Data's Repository
+    // and doesn't require constructor arguments
+}
+
+// Request and response messages for findPetTypes
+message FindPetTypesRequest {
+    org.springframework.samples.petclinic.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message FindPetTypesResponse {
+    repeated org.springframework.samples.petclinic.monomorph.dto.generated.proto.pettype.PetTypeDTO pet_types = 1;
+}
+
+// Request and response messages for save
+message SaveRequest {
+    org.springframework.samples.petclinic.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    org.springframework.samples.petclinic.monomorph.dto.generated.proto.owner.OwnerDTO owner = 2;
+}
+
+message SaveResponse {
+    // Empty response since the save method returns void
+}
+
+// Request and response messages for findById
+message FindByIdRequest {
+    org.springframework.samples.petclinic.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+    int32 id = 2;
+}
+
+message FindByIdResponse {
+    org.springframework.samples.petclinic.monomorph.dto.generated.proto.owner.OwnerDTO owner = 1;
+}

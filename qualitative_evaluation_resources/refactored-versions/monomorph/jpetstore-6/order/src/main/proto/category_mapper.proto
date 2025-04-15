@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.dto.generated.proto.categorymapper;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.dto.generated.proto.categorymapper";
+
+// Message representing the Category domain object
+message Category {
+  string categoryId = 1;
+  string name = 2;
+  string description = 3;
+}
+
+// Empty request for getCategoryList
+message GetCategoryListRequest {}
+
+// Response for getCategoryList
+message GetCategoryListResponse {
+  repeated Category categoryList = 1;
+}
+
+// Request for getCategory
+message GetCategoryRequest {
+  string categoryId = 1;
+}
+
+// Response for getCategory
+message GetCategoryResponse {
+  Category category = 1;
+}
+
+// The CategoryMapperDTO is not a clear fit for this interface
+// But I'll define it as a container for any necessary fields
+message CategoryMapperDTO {
+  // Since CategoryMapper is an interface with no fields,
+  // this message is empty but included for consistency
+}
+
+// Service definition for CategoryMapper
+service CategoryMapperService {
+  // Get all categories
+  rpc GetCategoryList(GetCategoryListRequest) returns (GetCategoryListResponse) {}
+
+  // Get a specific category by ID
+  rpc GetCategory(GetCategoryRequest) returns (GetCategoryResponse) {}
+}

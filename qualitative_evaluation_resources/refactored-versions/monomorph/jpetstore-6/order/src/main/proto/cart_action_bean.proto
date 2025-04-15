@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package org.mybatis.jpetstore.monomorph.id.generated.proto.cartactionbean;
+
+option java_multiple_files = true;
+option java_package = "org.mybatis.jpetstore.monomorph.id.generated.proto.cartactionbean";
+
+import "shared.proto";
+
+service CartActionBeanService {
+    rpc createObject(CreateObjectRequest) returns (org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID);
+    rpc getCart(GetCartRequest) returns (GetCartResponse);
+    rpc clear(ClearRequest) returns (ClearResponse);
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // CartActionBean has a no-arg constructor, so no fields are needed here
+}
+
+message GetCartRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message GetCartResponse {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID cartID = 1;
+}
+
+message ClearRequest {
+    org.mybatis.jpetstore.monomorph.id.shared.RefactoredObjectID refactoredObjectID = 1;
+}
+
+message ClearResponse {
+    // Empty response as clear() doesn't return a value
+}
