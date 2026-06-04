@@ -1,0 +1,14 @@
+key,benchmark,app,run_name,microservice,success_rate,commit_count,GLOC,TLOC,GHC,GFC,GAR,MAR,new_relevant_artifacts_updated,all_new_relevant_artifacts,GAR-R,old_relevant_artifacts_updated,all_old_relevant_artifacts,MAR-R
+microrefact/7ep-demo/manual/0,microrefact,7ep-demo,manual,0,True,7,1942,1944,3,17,1 of 3 (33.3%),16 of 36 (44.4%),1,3,0.3333333333333333,16,36,0.4444444444444444
+microrefact/7ep-demo/manual/1,microrefact,7ep-demo,manual,1,True,8,3348,3348,8,24,1 of 7 (14.3%),19 of 40 (47.5%),1,7,0.1428571428571428,19,40,0.475
+microrefact/7ep-demo/manual/2,microrefact,7ep-demo,manual,2,True,6,760,760,3,15,0 of 6 (0.0%),12 of 24 (50.0%),0,6,0.0,12,24,0.5
+microrefact/7ep-demo/manual/3,microrefact,7ep-demo,manual,3,True,4,1358,1358,2,11,0 of 2 (0.0%),10 of 21 (47.6%),0,2,0.0,10,21,0.4761904761904761
+microrefact/jpetstore-6/manual/0,microrefact,jpetstore-6,manual,0,True,6,58,62,1,6,3 of 5 (60.0%),3 of 10 (30.0%),3,5,0.6,3,10,0.3
+microrefact/jpetstore-6/manual/1,microrefact,jpetstore-6,manual,1,True,6,69,69,1,9,7 of 8 (87.5%),2 of 17 (11.8%),7,8,0.875,2,17,0.1176470588235294
+microrefact/jpetstore-6/manual/2,microrefact,jpetstore-6,manual,2,True,14,155,159,1,17,9 of 11 (81.8%),8 of 20 (40.0%),9,11,0.8181818181818182,8,20,0.4
+microrefact/spring-petclinic/manual/0,microrefact,spring-petclinic,manual,0,True,6,1858,1870,22,32,2 of 8 (25.0%),17 of 24 (70.8%),2,8,0.25,17,24,0.7083333333333334
+microrefact/spring-petclinic/manual/1,microrefact,spring-petclinic,manual,1,True,6,1312,1262,20,32,4 of 8 (50.0%),16 of 23 (69.6%),4,8,0.5,16,23,0.6956521739130435
+microrefact/spring-petclinic/manual/2,microrefact,spring-petclinic,manual,2,True,5,903,911,14,24,4 of 6 (66.7%),11 of 14 (78.6%),4,6,0.6666666666666666,11,14,0.7857142857142857
+microrefact/spring-petclinic/excluding_bloated_commits/0,microrefact,spring-petclinic,excluding_bloated_commits,0,True,4,1858,230,22,32,1 of 8 (12.5%),3 of 24 (12.5%),1,8,0.125,3,24,0.125
+microrefact/spring-petclinic/excluding_bloated_commits/1,microrefact,spring-petclinic,excluding_bloated_commits,1,True,4,1312,310,20,32,2 of 8 (25.0%),3 of 23 (13.0%),2,8,0.25,3,23,0.1304347826086956
+microrefact/spring-petclinic/excluding_bloated_commits/2,microrefact,spring-petclinic,excluding_bloated_commits,2,True,3,903,333,14,24,2 of 6 (33.3%),3 of 14 (21.4%),2,6,0.3333333333333333,3,14,0.2142857142857142

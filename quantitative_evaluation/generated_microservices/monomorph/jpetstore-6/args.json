@@ -1,0 +1,57 @@
+{
+    "run_id": "7d27c999",
+    "run_instance": "jpetstore-6-2507232035-7d27",
+    "input_arguments": {
+        "app": "jpetstore-6",
+        "app_source_code_path": "./data/repositories/qualitative_eval/jpetstore-6",
+        "package": "org.mybatis.jpetstore",
+        "java_version": "17",
+        "decomposition_file": "./quantitative_eval/parsed-decompositions-updated/jpetstore-6_decomposition_with_tests.json",
+        "decomposition_with_tests": true,
+        "refact_model_name": "mm_google/gemini-2.5-pro::medium",
+        "parser_model_name": "ministral-8b",
+        "decision_model_name": "mm_azure/o4-mini",
+        "correction_model_name": "mm_google/gemini-2.5-flash::medium",
+        "include_tests": false,
+        "restrictive": true,
+        "llm_cache_path": ".langchain.db",
+        "use_llm_cache": true,
+        "llm_checkpoint_path": "data/monomorph2-llm-checkpoints",
+        "checkpoint_config": {
+            "path": "./data/monomorph2-llm-checkpoints",
+            "should_load": true,
+            "should_save": true
+        },
+        "original_dockerfile_path": "./data/playground/compilation/jpetstore-6/DockerfileMR"
+    },
+    "other_arguments": {
+        "defaultFreq": 20000,
+        "freqStr": "LEASE_RENEWAL_FREQUENCY_MS",
+        "default_lease_duration": 60000,
+        "lease_duration_env_var_name": "MM_LEASE_DURATION"
+    },
+    "monomorph_versions": {
+        "monomorph_version": "0.1.1",
+        "analysis_version": "0.0.7",
+        "importparser_version": "0.0.1",
+        "LangChainProtoParsingPrompt_version": "0.0.3",
+        "LangChainGrpcParsingPrompt_version": "0.0.3",
+        "LangChainIDgRPCProtoPrompt_version": "0.1.4",
+        "LangChainIDgRPCServerPrompt_version": "0.1.3",
+        "LangChainIDgRPCClientPrompt_version": "0.1.3",
+        "git_hash": "11f48d2314a840fc470ce315682c4e02ea92da9b",
+        "refact_approach": "Hybrid",
+        "with_validation": true
+    },
+    "profiling": {
+        "start_timestamp": "2025-07-23 20:35:34",
+        "end_timestamp": "2025-07-23 23:11:32",
+        "wall_time": 8441983650083,
+        "cpu_time": 52904957000,
+        "start_time": 228080905509958,
+        "end_time": 236522889160041,
+        "cpu_start_time": 4975394000,
+        "cpu_end_time": 57880351000,
+        "timestamp_short": "2507232035"
+    }
+}

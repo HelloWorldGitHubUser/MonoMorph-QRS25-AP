@@ -1,0 +1,57 @@
+{
+    "run_id": "01476163",
+    "run_instance": "spring-petclinic-2507231543-0147",
+    "input_arguments": {
+        "app": "spring-petclinic",
+        "app_source_code_path": "./data/repositories/qualitative_eval/spring-petclinic",
+        "package": "org.springframework.samples.petclinic",
+        "java_version": "17",
+        "decomposition_file": "./quantitative_eval/parsed-decompositions-updated/spring-petclinic_decomposition_with_tests.json",
+        "decomposition_with_tests": true,
+        "refact_model_name": "mm_google/gemini-2.5-pro::medium",
+        "parser_model_name": "ministral-8b",
+        "decision_model_name": "mm_azure/o4-mini",
+        "correction_model_name": "mm_google/gemini-2.5-flash::medium",
+        "include_tests": false,
+        "restrictive": true,
+        "llm_cache_path": ".langchain.db",
+        "use_llm_cache": true,
+        "llm_checkpoint_path": "data/monomorph2-llm-checkpoints",
+        "checkpoint_config": {
+            "path": "./data/monomorph2-llm-checkpoints",
+            "should_load": true,
+            "should_save": true
+        },
+        "original_dockerfile_path": "./data/playground/compilation/spring-petclinic/DockerfileMR"
+    },
+    "other_arguments": {
+        "defaultFreq": 20000,
+        "freqStr": "LEASE_RENEWAL_FREQUENCY_MS",
+        "default_lease_duration": 60000,
+        "lease_duration_env_var_name": "MM_LEASE_DURATION"
+    },
+    "monomorph_versions": {
+        "monomorph_version": "0.1.1",
+        "analysis_version": "0.0.7",
+        "importparser_version": "0.0.1",
+        "LangChainProtoParsingPrompt_version": "0.0.3",
+        "LangChainGrpcParsingPrompt_version": "0.0.3",
+        "LangChainIDgRPCProtoPrompt_version": "0.1.4",
+        "LangChainIDgRPCServerPrompt_version": "0.1.3",
+        "LangChainIDgRPCClientPrompt_version": "0.1.3",
+        "git_hash": "11f48d2314a840fc470ce315682c4e02ea92da9b",
+        "refact_approach": "Hybrid",
+        "with_validation": true
+    },
+    "profiling": {
+        "start_timestamp": "2025-07-23 15:43:36",
+        "end_timestamp": "2025-07-23 16:08:35",
+        "wall_time": 1498936645125,
+        "cpu_time": 21462509000,
+        "start_time": 210563246795458,
+        "end_time": 212062183440583,
+        "cpu_start_time": 4723761000,
+        "cpu_end_time": 26186270000,
+        "timestamp_short": "2507231543"
+    }
+}
