@@ -5,6 +5,7 @@ Reads pre-computed effort metrics and produces the LaTeX tables reported in the 
 
 Input  (../data/effort_metrics/):
   monomorph_metrics.csv         -- raw per-microservice effort metrics
+                                   (regenerate from monomorph_metrics.json via compute_rq2_monomorph.py)
 
 Output (printed to stdout):
   LaTeX table: initial-run effort metrics

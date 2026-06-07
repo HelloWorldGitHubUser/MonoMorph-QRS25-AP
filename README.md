@@ -34,7 +34,9 @@ quantitative_evaluation/
     ├── rq2_monomorph.py         # RQ2 effort metrics — MonoMorph
     ├── rq2_microrefact.py       # RQ2 effort metrics — MicroRefact (baseline)
     ├── rq3_monomorph.py         # RQ3 test outcome equivalence — MonoMorph
-    └── rq3_microrefact.py       # RQ3 test outcome equivalence — MicroRefact (baseline)
+    ├── rq3_microrefact.py       # RQ3 test outcome equivalence — MicroRefact (baseline)
+    ├── compute_rq2_monomorph.py    # JSON → CSV for MonoMorph effort metrics
+    └── compute_rq2_microrefact.py  # JSON → CSV for MicroRefact effort metrics
 ```
 
 ### Reproducing the Results

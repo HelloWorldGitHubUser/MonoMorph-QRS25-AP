@@ -5,6 +5,7 @@ Reads pre-computed effort metrics and produces the LaTeX tables reported in the 
 
 Input  (../data/effort_metrics/):
   microrefact_metrics.csv       -- raw per-microservice effort metrics
+                                   (regenerate from microrefact_metrics.json via compute_rq2_microrefact.py)
 
 Output (printed to stdout):
   LaTeX table: effort metrics (all runs)
