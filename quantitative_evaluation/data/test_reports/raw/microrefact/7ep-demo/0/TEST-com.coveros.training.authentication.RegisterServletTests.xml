@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.authentication.RegisterServletTests" tests="4" skipped="0" failures="1" errors="0" timestamp="2025-12-08T21:49:25" hostname="831b305f93d7" time="0.075">
+  <properties/>
+  <testcase name="testEmptyString_Username" classname="com.coveros.training.authentication.RegisterServletTests" time="0.063"/>
+  <testcase name="doPostWithoutName" classname="com.coveros.training.authentication.RegisterServletTests" time="0.002"/>
+  <testcase name="testEmptyString_Password" classname="com.coveros.training.authentication.RegisterServletTests" time="0.009">
+    <failure message="Argument(s) are different! Wanted:&#10;httpServletRequest.setAttribute(&#10;    &quot;result&quot;,&#10;    &quot;no password provided&quot;&#10;);&#10;-&gt; at com.coveros.training.authentication.RegisterServletTests.testEmptyString_Password(RegisterServletTests.java:110)&#10;Actual invocations have different arguments:&#10;httpServletRequest.getParameter(&#10;    null&#10;);&#10;-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:33)&#10;httpServletRequest.setAttribute(&#10;    null,&#10;    &quot;&quot;&#10;);&#10;-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:35)&#10;httpServletRequest.getParameter(&#10;    null&#10;);&#10;-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:37)&#10;httpServletRequest.setAttribute(&#10;    null,&#10;    &quot;&quot;&#10;);&#10;-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:39)&#10;httpServletRequest.setAttribute(&#10;    &quot;result&quot;,&#10;    &quot;no username provided&quot;&#10;);&#10;-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:61)&#10;httpServletRequest.setAttribute(&#10;    &quot;return_page&quot;,&#10;    &quot;library.html&quot;&#10;);&#10;-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:63)&#10;httpServletRequest.getRequestDispatcher(&#10;    &quot;result.jsp&quot;&#10;);&#10;-&gt; at com.coveros.training.helpers.ServletUtils.forwardToResult(ServletUtils.java:35)&#10;" type="org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent">Argument(s) are different! Wanted:
+httpServletRequest.setAttribute(
+    &quot;result&quot;,
+    &quot;no password provided&quot;
+);
+-&gt; at com.coveros.training.authentication.RegisterServletTests.testEmptyString_Password(RegisterServletTests.java:110)
+Actual invocations have different arguments:
+httpServletRequest.getParameter(
+    null
+);
+-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:33)
+httpServletRequest.setAttribute(
+    null,
+    &quot;&quot;
+);
+-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:35)
+httpServletRequest.getParameter(
+    null
+);
+-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:37)
+httpServletRequest.setAttribute(
+    null,
+    &quot;&quot;
+);
+-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:39)
+httpServletRequest.setAttribute(
+    &quot;result&quot;,
+    &quot;no username provided&quot;
+);
+-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:61)
+httpServletRequest.setAttribute(
+    &quot;return_page&quot;,
+    &quot;library.html&quot;
+);
+-&gt; at com.coveros.training.authentication.RegisterServlet.doPost(RegisterServlet.java:63)
+httpServletRequest.getRequestDispatcher(
+    &quot;result.jsp&quot;
+);
+-&gt; at com.coveros.training.helpers.ServletUtils.forwardToResult(ServletUtils.java:35)
+
+	at app//com.coveros.training.authentication.RegisterServletTests.testEmptyString_Password(RegisterServletTests.java:110)
+	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy5.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="doPostWithName" classname="com.coveros.training.authentication.RegisterServletTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.helpers.CheckUtilsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:10:49" hostname="016e581f03b0" time="0.0">
+  <properties/>
+  <testcase name="testShouldThrowErrorFor0" classname="com.coveros.training.helpers.CheckUtilsTests" time="0.0"/>
+  <testcase name="testShouldThrowErrorForSubZero" classname="com.coveros.training.helpers.CheckUtilsTests" time="0.0"/>
+  <testcase name="testShouldSucceedForPositiveValue" classname="com.coveros.training.helpers.CheckUtilsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

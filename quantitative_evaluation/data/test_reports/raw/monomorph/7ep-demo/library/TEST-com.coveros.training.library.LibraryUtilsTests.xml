@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.library.LibraryUtilsTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:29" hostname="9e114276f19c" time="0.032">
+  <properties/>
+  <testcase name="testCanRegisterBorrower" classname="com.coveros.training.library.LibraryUtilsTests" time="0.016">
+    <system-out><![CDATA[2025-08-13 19:09:29,177 INFO trying to register a borrower with name: alice
+2025-08-13 19:09:29,178 INFO borrower: alice was not found.  Registering new borrower...
+2025-08-13 19:09:29,178 INFO saving new borrower: alice
+]]></system-out>
+  </testcase>
+  <testcase name="testCanDeleteBorrower" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,179 INFO deleting a borrower.  id: 1, name: alice
+2025-08-13 19:09:29,179 INFO searching for borrower by name: alice
+2025-08-13 19:09:29,179 INFO borrower with name: alice and id: 1 was deleted
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldThrowExceptionWhenSearchingWithEmptyStringAsBookTitle" classname="com.coveros.training.library.LibraryUtilsTests" time="0.004"/>
+  <testcase name="testCanSearchForBooksById" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,184 INFO search for book with id: 1
+2025-08-13 19:09:29,184 INFO Book found with id of 1
+]]></system-out>
+  </testcase>
+  <testcase name="testCanSearchForLoanByBorrower" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,184 INFO searching for loan by borrower with name: alice
+]]></system-out>
+  </testcase>
+  <testcase name="testCanCreateEmpty" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0"/>
+  <testcase name="testCannotDeleteNonRegisteredBorrower" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,185 INFO deleting a borrower.  id: 1, name: alice
+2025-08-13 19:09:29,186 INFO searching for borrower by name: alice
+2025-08-13 19:09:29,186 INFO borrower not found in database.  Therefore, obviously, cannot be deleted
+]]></system-out>
+  </testcase>
+  <testcase name="testCannotRegisterBookWithEmptyString" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0"/>
+  <testcase name="testCanSearchForBorrowerByName" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:29,186 INFO searching for borrower by name: alice
+]]></system-out>
+  </testcase>
+  <testcase name="testCanLendBook" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:29,187 INFO book: The DevOps Handbook is available for borrowing by valid borrower: alice
+2025-08-13 19:09:29,187 INFO creating loan for book: The DevOps Handbook by borrower: alice
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldListAvailableBooks" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:29,187 INFO received request to list available books
+]]></system-out>
+  </testcase>
+  <testcase name="testCanSearchForLoanByBook" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,188 INFO searching for loan by book with title: The DevOps Handbook
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldThrowExceptionWhenSearchingWithLessThanOneAsBookId" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0"/>
+  <testcase name="testCanSearchForBooksByTitle" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:29,189 INFO search for book with title: The DevOps Handbook
+2025-08-13 19:09:29,189 INFO book found with title of The DevOps Handbook
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldBeAbleToListAllBorrowers" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,189 INFO received request to list all borrowers
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldBeAbleToListAllBooks" classname="com.coveros.training.library.LibraryUtilsTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:29,190 INFO received request to list all books
+]]></system-out>
+  </testcase>
+  <testcase name="testCanRegisterBook" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,190 INFO trying to register a book with title: The DevOps Handbook
+2025-08-13 19:09:29,191 INFO book: The DevOps Handbook was not found.  Registering new book...
+2025-08-13 19:09:29,191 INFO saving a new book: The DevOps Handbook
+]]></system-out>
+  </testcase>
+  <testcase name="testCanLendBook_wrapperMethod" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,191 INFO starting process to lend a book: The DevOps Handbook to borrower: alice
+2025-08-13 19:09:29,192 INFO book: The DevOps Handbook is available for borrowing by valid borrower: alice
+2025-08-13 19:09:29,192 INFO creating loan for book: The DevOps Handbook by borrower: alice
+]]></system-out>
+  </testcase>
+  <testcase name="testCannotDeleteNonRegisteredBook" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,192 INFO deleting a book.  id: 1, title: The DevOps Handbook
+2025-08-13 19:09:29,192 INFO search for book with title: The DevOps Handbook
+2025-08-13 19:09:29,193 INFO No book found with title of The DevOps Handbook
+2025-08-13 19:09:29,193 INFO book not found in database.  Therefore, obviously, cannot be deleted
+]]></system-out>
+  </testcase>
+  <testcase name="testCanDeleteBook" classname="com.coveros.training.library.LibraryUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,193 INFO deleting a book.  id: 1, title: The DevOps Handbook
+2025-08-13 19:09:29,193 INFO search for book with title: The DevOps Handbook
+2025-08-13 19:09:29,194 INFO book found with title of The DevOps Handbook
+2025-08-13 19:09:29,194 INFO book with title: The DevOps Handbook and id: 1 was deleted
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

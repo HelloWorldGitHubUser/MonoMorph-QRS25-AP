@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.library.LendingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:28" hostname="9e114276f19c" time="0.661">
+  <properties/>
+  <testcase name="shouldRegisterBorrower" classname="com.coveros.training.library.LendingTests" time="0.656">
+    <system-out><![CDATA[2025-08-13 19:09:28,849 INFO trying to register a borrower with name: borrower_a
+2025-08-13 19:09:28,856 INFO borrower: borrower_a was not found.  Registering new borrower...
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldNotLendIfBorrowerNotRegistered" classname="com.coveros.training.library.LendingTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:28,858 INFO borrower:  was not registered.  Lending failed
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldNotLendIfBookNotRegistered" classname="com.coveros.training.library.LendingTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:28,859 INFO book:  was not registered.  Lending failed
+]]></system-out>
+  </testcase>
+  <testcase name="shouldRegisterBook" classname="com.coveros.training.library.LendingTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:28,859 INFO trying to register a book with title: Some book
+2025-08-13 19:09:28,859 INFO book: Some book was not found.  Registering new book...
+]]></system-out>
+  </testcase>
+  <testcase name="shouldLendToUser" classname="com.coveros.training.library.LendingTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:28,860 INFO book: Some book is available for borrowing by valid borrower: borrower_a
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotLendIfCurrentlyBorrowed" classname="com.coveros.training.library.LendingTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:28,861 INFO book: Some book was already checked out on 2018-01-01T00:00:00.000+0000.  Lending failed
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-08-13T16:23:19" hostname="50711fea255a" time="0.124">
+  <properties/>
+  <testcase name="testCalculateIterative[0]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[1]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[2]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[3]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.001"/>
+  <testcase name="testCalculateIterative[4]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[5]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[6]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[7]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[8]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[9]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[10]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.001"/>
+  <testcase name="testCalculateIterative[11]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.0"/>
+  <testcase name="testCalculateIterative[12]" classname="com.coveros.training.mathematics.AckermannIterativeParameterizedTests" time="0.122"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

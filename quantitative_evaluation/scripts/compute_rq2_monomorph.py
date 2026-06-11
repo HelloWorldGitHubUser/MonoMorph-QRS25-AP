@@ -16,8 +16,8 @@ Usage:
 Requirements: Python 3 with pandas.
 
 Note: to re-run the refacteval pipeline that produced monomorph_metrics.json from
-scratch (requires the refacteval library, Docker, and the generated microservice
-repositories), refer to the original notebook playground23_valid.ipynb.
+scratch, requires the refacteval library, Docker, and the generated microservice
+repositories.
 """
 
 import json

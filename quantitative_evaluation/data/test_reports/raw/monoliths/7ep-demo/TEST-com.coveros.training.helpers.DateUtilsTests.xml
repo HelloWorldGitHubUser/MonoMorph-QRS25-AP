@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.helpers.DateUtilsTests" tests="2" skipped="2" failures="0" errors="0" timestamp="2025-08-13T16:23:19" hostname="50711fea255a" time="0.0">
+  <properties/>
+  <testcase name="testShouldBe16Years3Months_HappyPath" classname="com.coveros.training.helpers.DateUtilsTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldReturnEvenTime" classname="com.coveros.training.helpers.DateUtilsTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.authentication.LoginServletTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:10:47" hostname="016e581f03b0" time="1.301">
+  <properties/>
+  <testcase name="testHappyPathPost" classname="com.coveros.training.authentication.LoginServletTests" time="1.296">
+    <system-out><![CDATA[2025-08-13 19:10:48,759 INFO received request to authenticate a user, alice
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyString_Username" classname="com.coveros.training.authentication.LoginServletTests" time="0.001"/>
+  <testcase name="testEmptyString_Password" classname="com.coveros.training.authentication.LoginServletTests" time="0.001"/>
+  <testcase name="testShouldGetAccessDeniedIfUserNotRegistered" classname="com.coveros.training.authentication.LoginServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:10:48,784 INFO received request to authenticate a user, alice
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

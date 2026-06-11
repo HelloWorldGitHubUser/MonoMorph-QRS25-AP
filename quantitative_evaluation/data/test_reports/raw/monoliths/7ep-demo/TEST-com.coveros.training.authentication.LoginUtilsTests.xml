@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.authentication.LoginUtilsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-13T16:23:18" hostname="50711fea255a" time="0.017">
+  <properties/>
+  <testcase name="testCanCreateEmpty" classname="com.coveros.training.authentication.LoginUtilsTests" time="0.015"/>
+  <testcase name="testCanSeeIfUserRegistered" classname="com.coveros.training.authentication.LoginUtilsTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 16:23:18,826 INFO checking if credentials for alice are valid for login
+2025-08-13 16:23:18,827 INFO credentials for alice were invalid - denying access
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

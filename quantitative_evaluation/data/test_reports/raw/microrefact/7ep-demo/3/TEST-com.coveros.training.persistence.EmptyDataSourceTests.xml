@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.persistence.EmptyDataSourceTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-12-08T21:57:06" hostname="8e07d5f30b17" time="0.061">
+  <properties/>
+  <testcase name="testGetParentLogger" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.001"/>
+  <testcase name="testIsWrapperFor" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.0"/>
+  <testcase name="testGetLogWriter" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.001"/>
+  <testcase name="testGetConnectionWithParams" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.0"/>
+  <testcase name="testGetLoginTimeout" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.0"/>
+  <testcase name="testSetLogWriter" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.059"/>
+  <testcase name="testSetLoginTimeout" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.0"/>
+  <testcase name="testGetConnection" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.0"/>
+  <testcase name="testUnwrap" classname="com.coveros.training.persistence.EmptyDataSourceTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.FibonacciParameterizedTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2025-08-13T16:23:19" hostname="50711fea255a" time="0.003">
+  <properties/>
+  <testcase name="test[0]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative1[0]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[0]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="test[1]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative1[1]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[1]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="test[2]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative1[2]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[2]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="test[3]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative1[3]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[3]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="test[4]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative1[4]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[4]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="test[5]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.001"/>
+  <testcase name="testIterative1[5]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[5]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="test[6]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative1[6]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[6]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.001"/>
+  <testcase name="test[7]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative1[7]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <testcase name="testIterative2[7]" classname="com.coveros.training.mathematics.FibonacciParameterizedTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.FibServletTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:17" hostname="273cce12c668" time="0.037">
+  <properties/>
+  <testcase name="testPostService_tailRecursive1" classname="com.coveros.training.mathematics.FibServletTests" time="0.03">
+    <system-out><![CDATA[2025-08-13 19:09:17,974 INFO received request to calculate the 2th fibonacci number by tail_recursive_1
+2025-08-13 19:09:17,974 INFO Fibonacci value is 1
+]]></system-out>
+  </testcase>
+  <testcase name="testPostService_tailRecursive2" classname="com.coveros.training.mathematics.FibServletTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 19:09:17,975 INFO received request to calculate the 2th fibonacci number by tail_recursive_2
+2025-08-13 19:09:17,976 INFO Fibonacci value is 1
+]]></system-out>
+  </testcase>
+  <testcase name="testPostService_HappyPath" classname="com.coveros.training.mathematics.FibServletTests" time="0.003">
+    <system-out><![CDATA[2025-08-13 19:09:17,978 INFO received request to calculate the 2th fibonacci number by regular_recursive
+2025-08-13 19:09:17,979 INFO Fibonacci value is 1
+]]></system-out>
+  </testcase>
+  <testcase name="testPostService_realForward_withException" classname="com.coveros.training.mathematics.FibServletTests" time="0.001"/>
+  <testcase name="testPostService_Forward" classname="com.coveros.training.mathematics.FibServletTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

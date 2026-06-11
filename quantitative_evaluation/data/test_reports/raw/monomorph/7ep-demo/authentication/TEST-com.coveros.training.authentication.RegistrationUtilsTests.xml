@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.authentication.RegistrationUtilsTests" tests="10" skipped="1" failures="0" errors="0" timestamp="2025-08-13T19:10:48" hostname="016e581f03b0" time="0.453">
+  <properties/>
+  <testcase name="testShouldProcessRegistration_HappyPath" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.174">
+    <system-out><![CDATA[2025-08-13 19:10:48,870 INFO Starting registration
+2025-08-13 19:10:49,040 INFO password met required entropy
+2025-08-13 19:10:49,041 INFO saving new user, alice, to database
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldProcessRegistration_BadPassword" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.19">
+    <system-out><![CDATA[2025-08-13 19:10:49,133 INFO minimum entropy for password was not met
+2025-08-13 19:10:49,162 INFO Starting registration
+2025-08-13 19:10:49,232 INFO minimum entropy for password was not met
+2025-08-13 19:10:49,233 INFO user provided a bad password during registration
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldHaveSufficientEntropyInPassword" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.082">
+    <system-out><![CDATA[2025-08-13 19:10:49,315 INFO password met required entropy
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldProcessRegistration_ExistingUser" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:10:49,316 INFO Starting registration
+2025-08-13 19:10:49,316 INFO cannot register this user - they are already registered
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldFailOnShortPassword" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:10:49,316 INFO password was too short
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyObject" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.0"/>
+  <testcase name="testShouldFailOnEmptyPassword_EmptyString" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:10:49,317 INFO password was empty
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldProcessRegistration_EmptyUsername" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.004">
+    <system-out><![CDATA[2025-08-13 19:10:49,319 INFO Starting registration
+]]></system-out>
+  </testcase>
+  <testcase name="testShouldPerformWell" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldDetermineIfUserInDatabase" classname="com.coveros.training.authentication.RegistrationUtilsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

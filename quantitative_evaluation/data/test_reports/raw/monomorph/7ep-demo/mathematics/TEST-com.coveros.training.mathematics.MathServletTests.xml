@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.MathServletTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:17" hostname="273cce12c668" time="0.026">
+  <properties/>
+  <testcase name="testPostService_HappyPath" classname="com.coveros.training.mathematics.MathServletTests" time="0.024">
+    <system-out><![CDATA[2025-08-13 19:09:18,012 INFO received request to add two numbers, 2 and 3
+]]></system-out>
+  </testcase>
+  <testcase name="testPostService_realForward_withException" classname="com.coveros.training.mathematics.MathServletTests" time="0.001"/>
+  <testcase name="testPostService_Forward" classname="com.coveros.training.mathematics.MathServletTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

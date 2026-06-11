@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.library.LibraryLendServletTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-13T16:23:19" hostname="50711fea255a" time="0.026">
+  <properties/>
+  <testcase name="testEmptyString_Book" classname="com.coveros.training.library.LibraryLendServletTests" time="0.021"/>
+  <testcase name="testHappyPathPost" classname="com.coveros.training.library.LibraryLendServletTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 16:23:19,571 INFO received request to lend a book, The DevOps Handbook, to alice
+]]></system-out>
+  </testcase>
+  <testcase name="testDateFunction" classname="com.coveros.training.library.LibraryLendServletTests" time="0.002"/>
+  <testcase name="testEmptyString_Borrower" classname="com.coveros.training.library.LibraryLendServletTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

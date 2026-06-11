@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.FibonacciTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-12-08T21:57:35" hostname="d94cea7b55e2" time="0.001">
+  <properties/>
+  <testcase name="testLargerValuesFibAlgo1" classname="com.coveros.training.mathematics.FibonacciTests" time="0.0"/>
+  <testcase name="testLargerValuesFibAlgo2" classname="com.coveros.training.mathematics.FibonacciTests" time="0.001"/>
+  <testcase name="testSmallValuesFibAlgo1" classname="com.coveros.training.mathematics.FibonacciTests" time="0.0"/>
+  <testcase name="testSmallValuesFibAlgo2" classname="com.coveros.training.mathematics.FibonacciTests" time="0.0"/>
+  <testcase name="testLargeValuesFibAlgo1" classname="com.coveros.training.mathematics.FibonacciTests" time="0.0"/>
+  <testcase name="testLargeValuesFibAlgo2" classname="com.coveros.training.mathematics.FibonacciTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

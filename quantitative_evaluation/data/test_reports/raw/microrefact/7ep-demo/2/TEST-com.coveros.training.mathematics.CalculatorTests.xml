@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.CalculatorTests" tests="6" skipped="6" failures="0" errors="0" timestamp="2025-12-08T21:57:35" hostname="d94cea7b55e2" time="0.001">
+  <properties/>
+  <testcase name="testShouldMockOutsideMethodsPart2" classname="com.coveros.training.mathematics.CalculatorTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldGetPairResult" classname="com.coveros.training.mathematics.CalculatorTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldAddTwoDecimals" classname="com.coveros.training.mathematics.CalculatorTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldAddTwoIntegers" classname="com.coveros.training.mathematics.CalculatorTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldMockOutsideMethods" classname="com.coveros.training.mathematics.CalculatorTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldGetStringVersionOfResult" classname="com.coveros.training.mathematics.CalculatorTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

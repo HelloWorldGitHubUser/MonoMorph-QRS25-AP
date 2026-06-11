@@ -10,8 +10,8 @@ Input  (../data/test_reports/):
 Output (printed to stdout):
   LaTeX table: test outcome equivalence results
 
-Note: to re-run the test suite against the microservice code, run
-compute_rq3_microrefact.py (requires Docker and the refacteval library).
+Note: the CSVs in ../data/test_reports/ can be regenerated from the raw Surefire
+XML reports in ../data/test_reports/raw/ by running compute_rq3_reports.py.
 """
 
 import pandas as pd

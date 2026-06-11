@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.persistence.ParameterObjectTests" tests="3" skipped="0" failures="1" errors="0" timestamp="2025-12-08T21:57:06" hostname="8e07d5f30b17" time="0.218">
+  <properties/>
+  <testcase name="testShouldHaveEqualsAndHashcodeImplementedCorrectly" classname="com.coveros.training.persistence.ParameterObjectTests" time="0.216">
+    <failure message="java.lang.AssertionError: EqualsVerifier found a problem in class com.coveros.training.persistence.ParameterObject.&#10;-&gt; Subclass: object is not equal to an instance of a trivial subclass with equal fields:&#10;  com.coveros.training.persistence.ParameterObject@5edce7da[data=java.lang.Object@79ae3fb1,type=class java.lang.Class]&#10;Maybe you forgot to add usingGetClass(). Otherwise, consider making the class final.&#10;&#10;For more information, go to: http://www.jqno.nl/equalsverifier/errormessages" type="java.lang.AssertionError">java.lang.AssertionError: EqualsVerifier found a problem in class com.coveros.training.persistence.ParameterObject.
+-&gt; Subclass: object is not equal to an instance of a trivial subclass with equal fields:
+  com.coveros.training.persistence.ParameterObject@5edce7da[data=java.lang.Object@79ae3fb1,type=class java.lang.Class]
+Maybe you forgot to add usingGetClass(). Otherwise, consider making the class final.
+
+For more information, go to: http://www.jqno.nl/equalsverifier/errormessages
+	at nl.jqno.equalsverifier.EqualsVerifierApi.verify(EqualsVerifierApi.java:292)
+	at com.coveros.training.persistence.ParameterObjectTests.testShouldHaveEqualsAndHashcodeImplementedCorrectly(ParameterObjectTests.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy5.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: nl.jqno.equalsverifier.internal.exceptions.AssertionException
+	at app//nl.jqno.equalsverifier.internal.util.Assert.assertTrue(Assert.java:52)
+	at app//nl.jqno.equalsverifier.internal.checkers.HierarchyChecker.checkSubclass(HierarchyChecker.java:150)
+	at app//nl.jqno.equalsverifier.internal.checkers.HierarchyChecker.check(HierarchyChecker.java:47)
+	at app//nl.jqno.equalsverifier.EqualsVerifierApi.verifyWithExamples(EqualsVerifierApi.java:380)
+	at app//nl.jqno.equalsverifier.EqualsVerifierApi.performVerification(EqualsVerifierApi.java:338)
+	at app//nl.jqno.equalsverifier.EqualsVerifierApi.verify(EqualsVerifierApi.java:290)
+	... 44 more
+</failure>
+  </testcase>
+  <testcase name="testCanCreateEmpty" classname="com.coveros.training.persistence.ParameterObjectTests" time="0.0"/>
+  <testcase name="testShouldOutputGoodString" classname="com.coveros.training.persistence.ParameterObjectTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

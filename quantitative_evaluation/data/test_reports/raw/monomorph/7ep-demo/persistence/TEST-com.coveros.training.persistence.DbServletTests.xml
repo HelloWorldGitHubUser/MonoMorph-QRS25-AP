@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.persistence.DbServletTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:10:36" hostname="110227c231c1" time="0.73">
+  <properties/>
+  <testcase name="testClean" classname="com.coveros.training.persistence.DbServletTests" time="0.727">
+    <system-out><![CDATA[2025-08-13 19:10:37,065 INFO received request to clean the database - i.e. remove all data and schema
+]]></system-out>
+  </testcase>
+  <testcase name="testCleanAndMigrate" classname="com.coveros.training.persistence.DbServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:10:37,080 INFO received request to clean, then migrate the database - i.e. putting it a fresh state with no data
+]]></system-out>
+  </testcase>
+  <testcase name="testMigrate" classname="com.coveros.training.persistence.DbServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:10:37,081 INFO received request to migrate the database - i.e. add schema, but no data
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

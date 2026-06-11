@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.library.LibraryRegisterBorrowerServletTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:29" hostname="9e114276f19c" time="0.023">
+  <properties/>
+  <testcase name="testHappyPathPost" classname="com.coveros.training.library.LibraryRegisterBorrowerServletTests" time="0.023">
+    <system-out><![CDATA[2025-08-13 19:09:29,158 INFO received request to register a borrower, Alice
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyString" classname="com.coveros.training.library.LibraryRegisterBorrowerServletTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:29,159 INFO input for the borrower field was empty
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

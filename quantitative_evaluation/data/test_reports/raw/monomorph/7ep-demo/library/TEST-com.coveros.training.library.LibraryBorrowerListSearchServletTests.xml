@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.library.LibraryBorrowerListSearchServletTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:29" hostname="9e114276f19c" time="0.037">
+  <properties/>
+  <testcase name="testSearchNoBorrowers" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.024">
+    <system-out><![CDATA[2025-08-13 19:09:29,072 INFO Received request for borrowers, no name or id requested - listing all borrowers
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByNameNotFound" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,074 INFO Received request for borrowers, name requested - searching for borrower by name abe borrower
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchById" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 19:09:29,075 INFO Received request for borrowers, id requested - searching for borrower by id 1
+]]></system-out>
+  </testcase>
+  <testcase name="testListAllBorrowers_noBorrowersExist" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.0">
+    <system-out><![CDATA[2025-08-13 19:09:29,076 INFO Received request for borrowers, no name or id requested - listing all borrowers
+]]></system-out>
+  </testcase>
+  <testcase name="testListAllBorrowers" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 19:09:29,077 INFO Received request for borrowers, no name or id requested - listing all borrowers
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByBadId" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,078 INFO Received request for borrowers, id requested - searching for borrower by id a
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchBorrowerFoundById" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 19:09:29,080 INFO Received request for borrowers, id requested - searching for borrower by id 1
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchIdAndName" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,082 INFO Received request for borrowers, by name and id - id 1 and name abe borrower
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchNothingFoundByName" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,083 INFO Received request for borrowers, name requested - searching for borrower by name abe borrower
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByName" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 19:09:29,084 INFO Received request for borrowers, name requested - searching for borrower by name abe borrower
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchNothingFoundById" classname="com.coveros.training.library.LibraryBorrowerListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,085 INFO Received request for borrowers, id requested - searching for borrower by id 1
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

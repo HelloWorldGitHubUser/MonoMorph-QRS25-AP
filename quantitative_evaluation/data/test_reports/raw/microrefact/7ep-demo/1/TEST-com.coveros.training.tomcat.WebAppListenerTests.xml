@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.tomcat.WebAppListenerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-12-08T21:55:08" hostname="98717f634740" time="0.011">
+  <properties/>
+  <testcase name="testContextDestroyed" classname="com.coveros.training.tomcat.WebAppListenerTests" time="0.011"/>
+  <testcase name="testContextInitialized" classname="com.coveros.training.tomcat.WebAppListenerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

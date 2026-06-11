@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.AckServletTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:16" hostname="273cce12c668" time="0.869">
+  <properties/>
+  <testcase name="testPostService_HappyPath" classname="com.coveros.training.mathematics.AckServletTests" time="0.854">
+    <system-out><![CDATA[2025-08-13 19:09:17,760 INFO received request to calculate Ackermann's with 2 and 3 and the regular_recursive algorithm
+2025-08-13 19:09:17,766 INFO Ackermann's result is 9
+]]></system-out>
+  </testcase>
+  <testcase name="testPostService_realForward_withException" classname="com.coveros.training.mathematics.AckServletTests" time="0.007"/>
+  <testcase name="testPostService_Forward" classname="com.coveros.training.mathematics.AckServletTests" time="0.001"/>
+  <testcase name="testPostService_TailRecursive" classname="com.coveros.training.mathematics.AckServletTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

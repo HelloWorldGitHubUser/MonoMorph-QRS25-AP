@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.persistence.ParameterObjectTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:29" hostname="9e114276f19c" time="0.01">
+  <properties/>
+  <testcase name="testShouldHaveEqualsAndHashcodeImplementedCorrectly" classname="com.coveros.training.persistence.ParameterObjectTests" time="0.009"/>
+  <testcase name="testCanCreateEmpty" classname="com.coveros.training.persistence.ParameterObjectTests" time="0.0"/>
+  <testcase name="testShouldOutputGoodString" classname="com.coveros.training.persistence.ParameterObjectTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

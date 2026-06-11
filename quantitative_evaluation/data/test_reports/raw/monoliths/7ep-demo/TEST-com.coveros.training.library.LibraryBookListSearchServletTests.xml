@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.library.LibraryBookListSearchServletTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-08-13T16:23:19" hostname="50711fea255a" time="0.028">
+  <properties/>
+  <testcase name="testSearchNothingFoundByTitle" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.019">
+    <system-out><![CDATA[2025-08-13 16:23:19,504 INFO Received request for books, name requested - searching for book by title a book
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchById" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.002">
+    <system-out><![CDATA[2025-08-13 16:23:19,506 INFO Received request for books, id requested - searching for book by id 1
+]]></system-out>
+  </testcase>
+  <testcase name="testListAllBooks_NoBooksInDatabase" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 16:23:19,507 INFO Received request for books, no title or id requested - listing all books
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByTitle" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 16:23:19,508 INFO Received request for books, name requested - searching for book by title a book
+]]></system-out>
+  </testcase>
+  <testcase name="testListAllBooks" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 16:23:19,509 INFO Received request for books, no title or id requested - listing all books
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchIdAndTitle" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 16:23:19,510 INFO Received request for books, by title and id - id 1 and title a book
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchNoBooks" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 16:23:19,511 INFO Received request for books, no title or id requested - listing all books
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchNothingFoundById" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 16:23:19,512 INFO Received request for books, id requested - searching for book by id 1
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchById_noBookFound" classname="com.coveros.training.library.LibraryBookListSearchServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 16:23:19,513 INFO Received request for books, id requested - searching for book by id 1
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

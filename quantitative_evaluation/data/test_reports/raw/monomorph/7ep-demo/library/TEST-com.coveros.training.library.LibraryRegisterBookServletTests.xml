@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.library.LibraryRegisterBookServletTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-13T19:09:29" hostname="9e114276f19c" time="0.021">
+  <properties/>
+  <testcase name="testHappyPathPost" classname="com.coveros.training.library.LibraryRegisterBookServletTests" time="0.02">
+    <system-out><![CDATA[2025-08-13 19:09:29,134 INFO received request to register a book, The DevOps Handbook
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyString" classname="com.coveros.training.library.LibraryRegisterBookServletTests" time="0.001">
+    <system-out><![CDATA[2025-08-13 19:09:29,135 INFO input for the book field was empty
+]]></system-out>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

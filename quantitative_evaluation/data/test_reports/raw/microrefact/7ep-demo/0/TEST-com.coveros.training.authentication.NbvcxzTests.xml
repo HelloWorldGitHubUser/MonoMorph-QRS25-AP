@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.authentication.NbvcxzTests" tests="3" skipped="3" failures="0" errors="0" timestamp="2025-12-08T21:49:25" hostname="831b305f93d7" time="0.001">
+  <properties/>
+  <testcase name="testShouldHaveSufficientEntropyInPassword" classname="com.coveros.training.authentication.NbvcxzTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldHaveInsufficientEntropyInPassword" classname="com.coveros.training.authentication.NbvcxzTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testShouldHaveSuccessfulEntropyInPassword" classname="com.coveros.training.authentication.NbvcxzTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

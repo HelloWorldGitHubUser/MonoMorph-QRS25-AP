@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coveros.training.mathematics.AckermannParameterizedTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-08-13T16:23:19" hostname="50711fea255a" time="0.001">
+  <properties/>
+  <testcase name="testShouldProperlyCalculate[0]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[1]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[2]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[3]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.001"/>
+  <testcase name="testShouldProperlyCalculate[4]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[5]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[6]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[7]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[8]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[9]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[10]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <testcase name="testShouldProperlyCalculate[11]" classname="com.coveros.training.mathematics.AckermannParameterizedTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
