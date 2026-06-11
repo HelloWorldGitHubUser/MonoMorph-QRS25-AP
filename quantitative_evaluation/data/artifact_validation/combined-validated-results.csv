@@ -1,0 +1,90 @@
+run_id,key,status,summary,number_of_issues,issue_category,syntax_issue_type,issue_severity
+spring-petclinic-2507231543-0147,new_proto/all/owner_repository.proto,IssuesFound,The generated code has critical errors: it fails to implement a required method and contains syntax errors.,2.0,Following Instructions,,Critical
+spring-petclinic-2507231543-0147,new_proto/all/owner_repository.proto,IssuesFound,The generated code has critical errors: it fails to implement a required method and contains syntax errors.,2.0,Syntax & Compilation Errors,malformed_comment,High
+spring-petclinic-2507231543-0147,new_proto/all/visit.proto,IssuesFound,The generated code is missing a required field and contains a syntax error.,1.0,Syntax & Compilation Errors,malformed_comment,High
+spring-petclinic-2507231543-0147,new_proto/all/vet.proto,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_proto/all/vet_repository.proto,IssuesFound,"The generated code failed to follow instructions by adding an unrequested method and its corresponding DTOs, and also used unnecessarily verbose type names.",1.0,Following Instructions,,Critical
+spring-petclinic-2507231543-0147,new_proto/all/specialty.proto,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_proto/all/owner.proto,IssuesFound,The generated code failed to implement a requested RPC method and contained multiple invalid type references.,1.0,Following Instructions,,Critical
+spring-petclinic-2507231543-0147,new_proto/all/pet.proto,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_proto/all/pet_type.proto,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_client/customers/org.springframework.samples.petclinic.monomorph.dto.generated.client.Visit,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_client/customers/org.springframework.samples.petclinic.monomorph.dto.generated.client.Vet,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_client/customers/org.springframework.samples.petclinic.monomorph.dto.generated.client.VetRepository,IssuesFound,The generated code has a critical syntax error and several deviations from the provided template.,2.0,Syntax & Compilation Errors,malformed_comment,High
+spring-petclinic-2507231543-0147,new_client/customers/org.springframework.samples.petclinic.monomorph.dto.generated.client.VetRepository,IssuesFound,The generated code has a critical syntax error and several deviations from the provided template.,2.0,Respecting Template,,High
+spring-petclinic-2507231543-0147,new_client/customers/org.springframework.samples.petclinic.monomorph.dto.generated.client.Specialty,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_server/customers/org.springframework.samples.petclinic.monomorph.id.generated.server.OwnerRepositoryImpl,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_server/customers/org.springframework.samples.petclinic.monomorph.dto.generated.server.OwnerImpl,IssuesFound,The generated code has critical compilation errors due to a missing import and an incorrect method argument type.,1.0,Syntax & Compilation Errors,missing_import,High
+spring-petclinic-2507231543-0147,new_server/customers/org.springframework.samples.petclinic.monomorph.dto.generated.server.PetImpl,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_client/visits/org.springframework.samples.petclinic.monomorph.id.generated.client.OwnerRepository,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_client/visits/org.springframework.samples.petclinic.monomorph.dto.generated.client.Owner,IssuesFound,"The generated code has a critical syntax error, fails to respect the template in several places, and incorrectly implements one of the RPC method calls.",1.0,Syntax & Compilation Errors,malformed_comment,High
+spring-petclinic-2507231543-0147,new_client/visits/org.springframework.samples.petclinic.monomorph.dto.generated.client.Pet,IssuesFound,The generated code has two major issues where it fails to follow the specified type mapping patterns for DTO conversion.,1.0,Syntax & Compilation Errors,missing_import,High
+spring-petclinic-2507231543-0147,new_client/visits/org.springframework.samples.petclinic.monomorph.dto.generated.client.PetType,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_server/visits/org.springframework.samples.petclinic.monomorph.dto.generated.server.VisitImpl,IssuesFound,"The generated code fails to compile because it attempts to import and extend a non-existent gRPC service base class, as no service was defined in the provided proto file.",1.0,Syntax & Compilation Errors,incorrect_import,High
+spring-petclinic-2507231543-0147,new_client/vets/org.springframework.samples.petclinic.monomorph.id.generated.client.OwnerRepository,IssuesFound,The generated code has a critical compilation error due to missing imports and a minor deviation from the provided template.,1.0,Syntax & Compilation Errors,missing_import,High
+spring-petclinic-2507231543-0147,new_client/vets/org.springframework.samples.petclinic.monomorph.dto.generated.client.Visit,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_client/vets/org.springframework.samples.petclinic.monomorph.dto.generated.client.Owner,IssuesFound,The generated code has critical compilation errors due to missing imports and deviates from the provided template's method names and implementation details.,2.0,Syntax & Compilation Errors,missing_import,High
+spring-petclinic-2507231543-0147,new_client/vets/org.springframework.samples.petclinic.monomorph.dto.generated.client.Owner,IssuesFound,The generated code has critical compilation errors due to missing imports and deviates from the provided template's method names and implementation details.,2.0,Respecting Template,,Critical
+spring-petclinic-2507231543-0147,new_client/vets/org.springframework.samples.petclinic.monomorph.dto.generated.client.Pet,Success,,0.0,,,
+spring-petclinic-2507231543-0147,new_client/vets/org.springframework.samples.petclinic.monomorph.dto.generated.client.PetType,IssuesFound,The generated code contains a critical syntax error and modifies a method from the provided template.,1.0,Syntax & Compilation Errors,malformed_comment,High
+spring-petclinic-2507231543-0147,new_server/vets/org.springframework.samples.petclinic.monomorph.dto.generated.server.VetImpl,IssuesFound,"The generated code is missing a required import for the VetMapper class, which will cause a compilation error.",1.0,Syntax & Compilation Errors,missing_import,High
+spring-petclinic-2507231543-0147,new_server/vets/org.springframework.samples.petclinic.monomorph.dto.generated.server.VetRepositoryImpl,IssuesFound,The generated code failed to use the specified VetRepositoryMapper for DTO-to-domain mapping and improperly removed an import from the template.,2.0,Following Instructions,,Critical
+spring-petclinic-2507231543-0147,new_server/vets/org.springframework.samples.petclinic.monomorph.dto.generated.server.VetRepositoryImpl,IssuesFound,The generated code failed to use the specified VetRepositoryMapper for DTO-to-domain mapping and improperly removed an import from the template.,2.0,Respecting Template,,High
+7ep-demo-2508061819-bce4,new_proto/all/check_utils.proto,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_proto/all/user.proto,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_proto/all/book.proto,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_proto/all/borrower.proto,IssuesFound,The generated code contains a syntax error due to an incorrect comment style.,1.0,Syntax & Compilation Errors,malformed_comment,High
+7ep-demo-2508061819-bce4,new_proto/all/loan.proto,IssuesFound,The generated code contains critical syntax errors in the import statements and comments that will prevent compilation.,2.0,Syntax & Compilation Errors,malformed_comment,High
+7ep-demo-2508061819-bce4,new_proto/all/loan.proto,IssuesFound,The generated code contains critical syntax errors in the import statements and comments that will prevent compilation.,2.0,Syntax & Compilation Errors,missing_import,High
+7ep-demo-2508061819-bce4,new_client/library/com.coveros.training.monomorph.id.generated.client.CheckUtils,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_client/library/com.coveros.training.monomorph.dto.generated.client.User,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_client/persistence/com.coveros.training.monomorph.dto.generated.client.User,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_client/persistence/com.coveros.training.monomorph.dto.generated.client.Book,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_client/persistence/com.coveros.training.monomorph.dto.generated.client.Borrower,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_client/persistence/com.coveros.training.monomorph.dto.generated.client.Loan,IssuesFound,The generated code correctly implements the DTO client pattern but contains a critical logical error in the 'equals' method.,1.0,Following Instructions,,Critical
+7ep-demo-2508061819-bce4,new_client/authentication/com.coveros.training.monomorph.dto.generated.client.Book,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_client/authentication/com.coveros.training.monomorph.dto.generated.client.Borrower,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_client/authentication/com.coveros.training.monomorph.dto.generated.client.Loan,Success,,0.0,,,
+7ep-demo-2508061819-bce4,new_server/authentication/com.coveros.training.monomorph.id.generated.server.CheckUtilsImpl,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/catalog_service.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/item_mapper.proto,IssuesFound,The generated protobuf file is syntactically correct but has an issue with mapping one of the method argument types,1.0,Following Instructions,,Critical
+jpetstore-6-2507232035-7d27,new_proto/all/account_action_bean.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/cart.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/item.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/cart_action_bean.proto,IssuesFound,The generated code contains a critical syntax error and fails to follow an explicit type mapping instruction from the prompt.,1.0,Following Instructions,,High
+jpetstore-6-2507232035-7d27,new_proto/all/product.proto,IssuesFound,The generated protobuf file contains syntax errors that will prevent it from compiling.,1.0,Syntax & Compilation Errors,malformed_comment,High
+jpetstore-6-2507232035-7d27,new_proto/all/catalog_action_bean.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/category.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/product_mapper.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/account.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/cart_item.proto,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.id.generated.client.CatalogService,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.id.generated.client.ItemMapper,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.id.generated.client.AccountActionBean,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.Item,IssuesFound,"The generated code is mostly correct but contains a critical syntax error in the `toString()` method, which is incomplete.",1.0,Syntax & Compilation Errors,incomplete_source,Critical
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.CartActionBean,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.Product,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.CatalogActionBean,IssuesFound,"The generated code is mostly correct but will fail to compile due to missing imports for DTO proxy classes, and it also modifies a method from the provided template.",1.0,Syntax & Compilation Errors,missing_import,High
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.Category,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.CategoryMapper,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.ProductMapper,IssuesFound,The generated code correctly implements the required gRPC client functionality but modifies two methods from the provided template to fix logical errors and add necessary setup calls.,1.0,Respecting Template,,High
+jpetstore-6-2507232035-7d27,new_client/order/org.mybatis.jpetstore.monomorph.dto.generated.client.Account,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_server/order/org.mybatis.jpetstore.monomorph.id.generated.server.CartImpl,IssuesFound,"The generated code violates a critical instruction by using a forbidden class, contains compilation and runtime errors due to incorrect type handling, and deviates from the provided template in several methods.",1.0,Following Instructions,,High
+jpetstore-6-2507232035-7d27,new_server/order/org.mybatis.jpetstore.monomorph.dto.generated.server.CartItemImpl,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/catalog/org.mybatis.jpetstore.monomorph.id.generated.client.Cart,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/catalog/org.mybatis.jpetstore.monomorph.dto.generated.client.CartItem,IssuesFound,The generated code is mostly correct but fails to compile due to a missing import for the 'Item' class.,1.0,Syntax & Compilation Errors,missing_import,High
+jpetstore-6-2507232035-7d27,new_server/catalog/org.mybatis.jpetstore.monomorph.id.generated.server.CatalogServiceImpl,IssuesFound,The generated code has one critical compilation error and multiple minor deviations where it corrected bugs in the original template.,1.0,Syntax & Compilation Errors,incorrect_import,High
+jpetstore-6-2507232035-7d27,new_server/catalog/org.mybatis.jpetstore.monomorph.id.generated.server.ItemMapperImpl,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_server/catalog/org.mybatis.jpetstore.monomorph.dto.generated.server.ItemImpl,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_server/catalog/org.mybatis.jpetstore.monomorph.dto.generated.server.CartActionBeanImpl,IssuesFound,"The generated code fails to compile because it omits a required import for the mapper class, which was explicitly included in the provided template.",1.0,Respecting Template,,High
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.id.generated.client.CatalogService,IssuesFound,The generated code has a critical syntax error that will prevent compilation.,1.0,Syntax & Compilation Errors,malformed_comment,High
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.id.generated.client.ItemMapper,IssuesFound,The generated code is almost perfect but contains a single critical syntax error that prevents compilation.,1.0,Syntax & Compilation Errors,malformed_comment,High
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.dto.generated.client.Item,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.dto.generated.client.Product,IssuesFound,"The generated code fails to implement the required setter methods, violating API compatibility, and modifies several elements from the provided template.",1.0,Following Instructions,,Critical
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.dto.generated.client.CatalogActionBean,IssuesFound,The generated code has critical compilation errors due to missing imports and minor logical flaws in list-handling methods.,1.0,Syntax & Compilation Errors,missing_import,High
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.dto.generated.client.Category,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.dto.generated.client.CategoryMapper,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_client/account/org.mybatis.jpetstore.monomorph.dto.generated.client.ProductMapper,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_server/account/org.mybatis.jpetstore.monomorph.id.generated.server.AccountActionBeanImpl,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_server/account/org.mybatis.jpetstore.monomorph.dto.generated.server.AccountImpl,Success,,0.0,,,
+jpetstore-6-2507232035-7d27,new_proto/all/category_mapper.proto,Success,,0.0,,,
